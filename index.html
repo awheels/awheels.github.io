@@ -80,7 +80,7 @@ services:
 <div class='row' style="display: flex; justify-content: space-between;"> 
   {% for service in page.services %}
     <div class='medium-3 large-3 columns'>
-      <div class='fadein mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
+      <div class='mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
         <div class='icon-text-circle'>
           <i class='{{service.icon_class}}'></i>
           <h3>{{service.title}}</h3>
