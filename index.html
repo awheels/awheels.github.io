@@ -1,0 +1,131 @@
+---
+layout: default
+section_id: home
+works:
+  - image: images/my365-600x500.png
+    title: My365 Project
+    link_to: portfolio_items/my365.html
+    class: coding photography
+    desc: Coding &amp; Photography
+  - image: images/breakout-600x500.png
+    title: Breakout Video Game
+    link_to: portfolio_items/breakout.html
+    class: coding teaching
+    desc: Coding
+  - image: images/Family-600x500.png
+    title: Family &amp; Wedding Photography
+    link_to: portfolio_items/fam_wed_photography.html
+    class: photography
+    desc: Photography
+  - image: images/curricular-links.png
+    title: Curricular Links
+    link_to: portfolio_items/curricular_links.html
+    class: teaching coding
+    desc: Teaching &amp; Coding
+
+services:
+  - icon_class: fa fa-pencil
+    title: Teaching
+    desc: Experienced high school Mathematics and Chemistry teacher.
+  - icon_class: fa fa-laptop
+    title: Coding
+    desc: Passionate about learning and teaching computer coding.
+  - icon_class: fa fa-camera
+    title: Photography
+    desc: Self-taught photographer with passion for capturing moments.
+
+---
+<div style="height:250px; background: black; text-align:center" >
+  <h2 style="text-transform: uppercase; color: white; text-align:center; padding-top: 70px;"><span style="display:inline-block; padding: 0.5em; border: white solid 5px;">Educator / Developer / Photographer</span></h1>
+  <a href="about.html" class="button" style="margin-top:10px;">Learn More</a>
+</div>
+
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      Recent work
+      /
+      <a href='portfolio.html'>View more</a>
+    </h3>
+    <div class='spacing'></div>
+  </div>
+  <div class='mod modGallery'>
+    <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+      {% for work in page.works %}
+        <li class='{{work.class}}'>
+          <a href='{{work.link_to}}'>
+            <img alt="" src="{{work.image}}" />
+            <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+              <div class='thumb-info'>
+                <h3>{{work.title}}</h3>
+                <p>{{work.desc}}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class='two spacing'></div>
+<hr>
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>Skills</h3>
+    <div class='two spacing'></div>
+  </div>
+</div>
+<div class='row' style="display: flex; justify-content: space-between;"> 
+  {% for service in page.services %}
+    <div class='medium-3 large-3 columns'>
+      <div class='fadein mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
+        <div class='icon-text-circle'>
+          <i class='{{service.icon_class}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<hr>
+<div class='two spacing'></div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      Recent posts
+      /
+      <a href='#'>View more posts</a>
+    </h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for post in site.posts %}
+    {% if forloop.index > 3 %}
+      {% break %}
+    {% endif %}
+
+
+    <div class='large-4 medium-4 columns'>
+      <div class='mod modBlogPost no_bg simple'>
+        {% for image in post.images %}
+          {% if forloop.index > 1 %}
+            {% break %}
+          {% endif %}
+          <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+        {% endfor %}
+        <div class='content'>
+          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+          <p>{{post.excerpt | truncatewords: 25 }}</p>
+        </div>
+      </div>
+    </div>
+
+  {% endfor %}
+  <div class='two spacing'></div>
+</div>

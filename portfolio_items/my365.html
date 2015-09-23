@@ -1,0 +1,52 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/my365-800x500.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>My 365 Project</h3>
+      <p>
+        I created my own application to manage my personal 'photograph a day project'. The application is integrated with Instagram's API, which allows me to add photographs to my project page by posting to Instagram with the specific hashtag of '#my365'. The application is built using Ruby and the Sinatra framework.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Date:</strong>
+          January 2015
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='http://awheeler-my365.herokuapp.com/' target="_blank">Visit website</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='../portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

@@ -1,0 +1,119 @@
+---
+layout: default
+section_id: portfolio
+<!-- images:
+  - images/Family-800x500.png
+  - images/Wedding-800x500.png -->
+---
+
+
+<div class='full' style="padding: 40px 0 0;">
+	<div class='row'>
+		<div class='large-12 columns'>
+			<p style="font-size:16px;">I believe that coding is an amazing tool for giving students the power to be technology creators instead of only consumers. If students are able to gain a basic understanding of several coding concepts they can quickly start to brings their ideas and imaginations to life. I envision students combining coding skills with their creativity to demonstrate their understanding of the curricular content being taught in their various subjects. This is a ongoing list of various programs that I have created using Scratch that incorporate various curricular content.</p>
+			<div class='two spacing'></div>
+			<div id="users">
+				<input class="search" placeholder="Search" />
+				<button class="sort" data-sort="subject">
+					Sort by subject
+				</button>
+  				<ul class="list">
+					<li>
+						<div class="row" style="margin-left:0; margin-right:0;">
+							<div class="medium-2 columns">
+								<img src="../images/molecular-motion-sim.png" style="display: block; margin-left: auto; margin-right: auto;">
+							</div>
+							<div class="medium-10 columns">
+								<div class="curricular-title">
+									<div style="display:flex; justify-content: space-between">
+										<h3 class="project">Molecular Motion</h3>
+										<h5 class="subject">Science</h5>
+									</div>
+									<p>Students apply their knowledge of the 'Kinetic Molecular Theory' to show the effect of temperature on the average kinetic energy of gaseous molecules. Students apply their knowledge of the 'Kinetic Molecular Theory' to show the effect of temperature on the average kinetic energy of gaseous molecules. Students apply their knowledge of the 'Kinetic Molecular Theory' to show the effect of temperature on the average kinetic energy of gaseous molecules.</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row" style="margin-left:0; margin-right:0;">
+							<div class="medium-2 columns">
+								<img src="../images/rotating-squares.png" style="display: block; margin-left: auto; margin-right: auto;">
+							</div>
+							<div class="medium-10 columns">
+								<div class="curricular-title">
+									<div style="display:flex; justify-content: space-between">
+										<h3 class="project">Rotating Squares</h3>
+										<h5 class="subject">Mathematics</h5>
+									</div>
+									<p>Students apply their </p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row" style="margin-left:0; margin-right:0;">
+							<div class="medium-2 columns">
+								<img src="../images/pong.png" style="display: block; margin-left: auto; margin-right: auto;">
+							</div>
+							<div class="medium-10 columns">
+								<div class="curricular-title">
+									<div style="display:flex; justify-content: space-between">
+										<h3 class="project">Pong</h3>
+										<h5 class="subject">Mathematics</h5>
+									</div>
+									<p>Students apply their </p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class='four spacing'></div>
+</div>
+	<script src="http://listjs.com/no-cdn/list.js"></script>
+	<script src='//wenzhixin.net.cn/p/multiple-select/assets/multiple-select/jquery.multiple.select.js'></script>
+
+	<script type="text/javascript">
+		var options = {
+			valueNames: [ 'project', 'subject' ]
+		};
+
+		var userList = new List('users', options);
+
+		var updateList = function(){
+			var values_subject = $(".subject").val()
+
+			userList.filter(function(item) {
+				return (_(values_subject).contains(item.values().subject) || !values_subject) 
+			});
+		}
+
+		$(function(){
+			updateList();
+			$(".subject").change(updateList);
+
+			var all_subject = [];
+
+			_(userList.items).each(function(item){
+				all_subject.push(item.values().subject)
+			});
+
+			_(all_born).uniq().each(function(item){
+			    $(".date_s").append('<option value="'+item+'">'+ item +'</option>')
+		  });
+		  _(all_name).uniq().each(function(item){
+		    $(".name_s").append('<option value="'+item+'">'+ item +'</option>')
+		  }); 
+		  
+		  $('select').each(function(){
+		    $(this).multipleSelect({
+		      onClick: updateList,
+		      selectAll: false,
+		      placeholder: $(this).data('placeholder')
+		    });
+		  });
+		  
+		});
+	</script>
