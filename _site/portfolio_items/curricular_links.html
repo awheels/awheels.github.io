@@ -126,53 +126,59 @@
 					Sort by subject
 				</button>
   				<ul class="list">
-					<li>
-						<div class="row" style="margin-left:0; margin-right:0;">
-							<div class="medium-2 columns">
-								<img src="../images/molecular-motion-sim.png" style="display: block; margin-left: auto; margin-right: auto;">
-							</div>
-							<div class="medium-10 columns">
-								<div class="curricular-title">
-									<div style="display:flex; justify-content: space-between">
-										<h3 class="project">Molecular Motion</h3>
-										<h5 class="subject">Science</h5>
+					<li class="project-item">
+						<a style="color: black;text-decoration: none; line-height: inherit;" href="https://scratch.mit.edu/projects/74352746/" target="_blank">
+							<div class="row" style="margin-left:0; margin-right:0;">
+								<div class="medium-2 columns">
+									<img src="../images/molecular-motion-sim.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</div>
+								<div class="medium-10 columns">
+									<div class="curricular-title">
+										<div style="display:flex; justify-content: space-between">
+											<h3 class="project">Molecular Motion</h3>
+											<h5 class="subject">Science</h5>
+										</div>
+										<p>Students apply their knowledge of the 'Kinetic Molecular Theory' to show the effect of temperature on the average kinetic energy of gaseous molecules.</p>
 									</div>
-									<p>Students apply their knowledge of the 'Kinetic Molecular Theory' to show the effect of temperature on the average kinetic energy of gaseous molecules.</p>
 								</div>
 							</div>
-						</div>
+						</a>
 					</li>
-					<li>
-						<div class="row" style="margin-left:0; margin-right:0;">
-							<div class="medium-2 columns">
-								<img src="../images/rotating-squares.png" style="display: block; margin-left: auto; margin-right: auto;">
-							</div>
-							<div class="medium-10 columns">
-								<div class="curricular-title">
-									<div style="display:flex; justify-content: space-between">
-										<h3 class="project">Rotating Squares</h3>
-										<h5 class="subject">Mathematics</h5>
+					<li class="project-item">
+						<a style="color: black;text-decoration: none; line-height: inherit;" href="https://scratch.mit.edu/projects/74397418/" target="_blank">
+							<div class="row" style="margin-left:0; margin-right:0;">
+								<div class="medium-2 columns">
+									<img src="../images/rotating-squares.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</div>
+								<div class="medium-10 columns">
+									<div class="curricular-title">
+										<div style="display:flex; justify-content: space-between">
+											<h3 class="project">Rotating Squares</h3>
+											<h5 class="subject">Mathematics</h5>
+										</div>
+										<p>Transformations of 2D shapes can be explored, specifically rotations. An understanding of angles will also be required to ensure that a full 360 degree rotation is made. The program could also be adapted to look at translations and reflections.</p>
 									</div>
-									<p>Transformations of 2D shapes can be explored, specifically rotations. An understanding of angles will also be required to ensure that a full 360 degree rotation is made. The program could also be adapted to look at translations and reflections.</p>
 								</div>
 							</div>
-						</div>
+						</a>
 					</li>
-					<li>
-						<div class="row" style="margin-left:0; margin-right:0;">
-							<div class="medium-2 columns">
-								<img src="../images/pong.png" style="display: block; margin-left: auto; margin-right: auto;">
-							</div>
-							<div class="medium-10 columns">
-								<div class="curricular-title">
-									<div style="display:flex; justify-content: space-between">
-										<h3 class="project">Pong</h3>
-										<h5 class="subject">Mathematics</h5>
+					<li class="project-item">
+						<a style="color: black;text-decoration: none; line-height: inherit;" href="https://scratch.mit.edu/projects/74382190/" target="_blank">
+							<div class="row" style="margin-left:0; margin-right:0;">
+								<div class="medium-2 columns">
+									<img src="../images/pong.png" style="display: block; margin-left: auto; margin-right: auto;">
+								</div>
+								<div class="medium-10 columns">
+									<div class="curricular-title">
+										<div style="display:flex; justify-content: space-between">
+											<h3 class="project">Pong</h3>
+											<h5 class="subject">Mathematics</h5>
+										</div>
+										<p>Students will need to have a strong understanding of various mathematical concepts to create their version of pong. They will need to be confident with cartesian geometry, specifically the coordinate system. Vectors will also be applied to control the balls speed and direction.</p>
 									</div>
-									<p>Students will need to have a strong understanding of various mathematical concepts to create their version of pong. They will need to be confident with cartesian geometry, specifically the coordinate system. Vectors will also be applied to control the balls speed and direction.</p>
 								</div>
 							</div>
-						</div>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -190,39 +196,12 @@
 
 		var userList = new List('users', options);
 
-		var updateList = function(){
-			var values_subject = $(".subject").val()
-
-			userList.filter(function(item) {
-				return (_(values_subject).contains(item.values().subject) || !values_subject) 
+		jQuery( document ).ready(function() {
+			jQuery(".project-item").hover(function() {
+			    jQuery(this).addClass("list-hover");
+			}, function() {
+			    jQuery(this).removeClass("list-hover");
 			});
-		}
-
-		$(function(){
-			updateList();
-			$(".subject").change(updateList);
-
-			var all_subject = [];
-
-			_(userList.items).each(function(item){
-				all_subject.push(item.values().subject)
-			});
-
-			_(all_born).uniq().each(function(item){
-			    $(".date_s").append('<option value="'+item+'">'+ item +'</option>')
-		  });
-		  _(all_name).uniq().each(function(item){
-		    $(".name_s").append('<option value="'+item+'">'+ item +'</option>')
-		  }); 
-		  
-		  $('select').each(function(){
-		    $(this).multipleSelect({
-		      onClick: updateList,
-		      selectAll: false,
-		      placeholder: $(this).data('placeholder')
-		    });
-		  });
-		  
 		});
 	</script>
     </div>
@@ -236,7 +215,7 @@
           <img alt="" src="/images/logo-bw.png" />
         </a>
       </h1>
-      <p>©2015 Andrew Wheeler. All rights reserved.</p>
+      <p>2015 Andrew Wheeler.</p>
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>

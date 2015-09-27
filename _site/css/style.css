@@ -3597,3 +3597,6 @@ input:focus {
   top:-10px;
   right:-5px;
 }
+.list-hover {
+  background-color:  #C8C8C8 !important;
+}

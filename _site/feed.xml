@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Sep 2015 18:57:05 -0700</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2015 18:57:05 -0700</lastBuildDate>
+    <pubDate>Sun, 27 Sep 2015 09:03:40 -0700</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2015 09:03:40 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -43,7 +43,25 @@
     
       <item>
         <title>Why teach kids to code</title>
-        <description>&lt;p&gt;Coming soon!&lt;/p&gt;
+        <description>&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Great practice for precise, disciplined, and abstract thinking&lt;br /&gt;
+Precise - a program either works or it does not&lt;br /&gt;
+Disciplined – being methodical and embracing routine while also practicing regular critical reflection&lt;br /&gt;
+Abstract – taking real world problem and solving it creatively with your code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Converts you from a digital consumer to a digital producer&lt;br /&gt;
+Computers are either appliances or tools &lt;br /&gt;
+With even a basic understanding of coding you can start to use computers as a tool to help you accomplish tasks&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Great practice for continued learning&lt;br /&gt;
+Google is a programmer’s best friend &lt;br /&gt;
+You will have questions and you will need to find the answers to these questions &lt;br /&gt;
+Learning which keywords to use, filtering out useless advice from good advice and asking clear questions are all important skills that you will develop&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Sun, 13 Sep 2015 03:20:05 -0700</pubDate>
         <link>/coding/education/2015/09/13/why-teach-kids-to-code.html</link>
