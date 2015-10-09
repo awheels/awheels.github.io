@@ -11,17 +11,3 @@ excerpt:
 ---
 
 Coming soon!
-<!-- 1. Great practice for precise, disciplined, and abstract thinking
-Precise - a program either works or it does not
-Disciplined – being methodical and embracing routine while also practicing regular critical reflection
-Abstract – taking real world problem and solving it creatively with your code
-
-2. Converts you from a digital consumer to a digital producer
-Computers are either appliances or tools 
-With even a basic understanding of coding you can start to use computers as a tool to help you accomplish tasks
-
-3. Great practice for continued learning
-Google is a programmer’s best friend 
-You will have questions and you will need to find the answers to these questions 
-Learning which keywords to use, filtering out useless advice from good advice and asking clear questions are all important skills that you will develop
- -->
