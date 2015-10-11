@@ -6,9 +6,24 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Oct 2015 18:12:55 -0700</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2015 18:12:55 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Oct 2015 10:07:01 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2015 10:07:01 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Why teach kids to code</title>
+        <description>&lt;p&gt;Coming soon!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Oct 2015 03:20:05 -0700</pubDate>
+        <link>/coding/education/2015/10/05/why-teach-kids-to-code.html</link>
+        <guid isPermaLink="true">/coding/education/2015/10/05/why-teach-kids-to-code.html</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
     
       <item>
         <title>Teaching Binary</title>
@@ -26,46 +41,13 @@
 
 &lt;p&gt;Ok, so the kids know about binary now…big deal. And at this point I would agree because it is with context that things become interesting. Talking about how computers only understand binary, so all your of programs that you write are converted into binary using a compiler is pretty cool. But again, it adds very little context and they are just left with accepting it is a fact that is being told to them. So what does a teacher do when presented with the difficult teaching situation? &lt;a href=&quot;http://www.smh.com.au/entertainment/music/psys-gangnam-style-breaks-the-internet-20141204-11zusj.html&quot; target=&quot;_blank&quot;&gt;Resort to music videos on YouTube!&lt;/a&gt; Everyone knows Gangnam Style and some of your students might also be aware of the fact that it was responsible for breaking YouTube. But now they actually have the knowledge and understanding to grasp exactly how that happened. It is also a great piece of evidence to show that computer use binary, because if YouTube uses it then it must be true.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Sep 2015 03:20:05 -0700</pubDate>
-        <link>/coding/education/2015/09/14/teaching-binary.html</link>
-        <guid isPermaLink="true">/coding/education/2015/09/14/teaching-binary.html</guid>
+        <pubDate>Tue, 22 Sep 2015 03:20:05 -0700</pubDate>
+        <link>/coding/education/2015/09/22/teaching-binary.html</link>
+        <guid isPermaLink="true">/coding/education/2015/09/22/teaching-binary.html</guid>
         
         <category>coding</category>
         
         <category>education</category>
-        
-        
-        <category>coding</category>
-        
-        <category>education</category>
-        
-      </item>
-    
-      <item>
-        <title>Why teach kids to code</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Great practice for precise, disciplined, and abstract thinking&lt;br /&gt;
-Precise - a program either works or it does not&lt;br /&gt;
-Disciplined – being methodical and embracing routine while also practicing regular critical reflection&lt;br /&gt;
-Abstract – taking real world problem and solving it creatively with your code&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Converts you from a digital consumer to a digital producer&lt;br /&gt;
-Computers are either appliances or tools &lt;br /&gt;
-With even a basic understanding of coding you can start to use computers as a tool to help you accomplish tasks&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Great practice for continued learning&lt;br /&gt;
-Google is a programmer’s best friend &lt;br /&gt;
-You will have questions and you will need to find the answers to these questions &lt;br /&gt;
-Learning which keywords to use, filtering out useless advice from good advice and asking clear questions are all important skills that you will develop&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 13 Sep 2015 03:20:05 -0700</pubDate>
-        <link>/coding/education/2015/09/13/why-teach-kids-to-code.html</link>
-        <guid isPermaLink="true">/coding/education/2015/09/13/why-teach-kids-to-code.html</guid>
         
         
         <category>coding</category>

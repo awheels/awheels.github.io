@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body>
+	<body>
 
-    {% include header.html %}
+		{% include header.html %}
 
-    <div id='main' role='main'>
-      {{ content }}
-    </div>
+		<div id='main' role='main'>
+			{{ content }}
+		</div>
 
-    {% include footer.html %}
+		{% include footer.html %}
 
-  </body>
+		<script>
+			var nav = responsiveNav(".nav-collapse");
+		</script>
+
+	</body>
 
 </html>
