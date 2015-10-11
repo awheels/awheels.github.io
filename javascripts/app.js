@@ -258,7 +258,7 @@ jQuery(document).foundation();
         pauseOnHover: false,
         dots: true,
         speed: 1500,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 15000,
         arrows: false
       });
 
