@@ -1,17 +1,30 @@
 ---
 layout: default
 section_id: portfolio
-<!-- images:
-  - images/Family-800x500.png
-  - images/Wedding-800x500.png -->
+images:
+  - images/curricular-links-800x500.png
+  - images/curricular-links-800x500-2.png
 ---
-
 
 <div class='full' style="padding: 40px 0 0;">
 	<div class='row'>
 		<div class='large-12 columns'>
+		    <div class='large-4 columns'>
+		      <div class='mod modBoxedSlider'>
+		        <div class='slides'>
+		          {% for image in page.images %}
+		            <div class="slide">
+		              <img src="{{site.url}}/{{image}}" alt="">
+		            </div>
+		          {% endfor %}
+		        </div>
+		      </div>
+		    </div>
+
 			<p style="font-size:16px;">I believe that coding is an amazing tool for giving students the power to be technology creators instead of only consumers. If students are able to gain a basic understanding of several coding concepts they can quickly start to brings their ideas and imaginations to life. I envision students combining coding skills with their creativity to demonstrate their understanding of the curricular content being taught in their various subjects. This is a ongoing list of various programs that I have created using Scratch that incorporate various curricular content.</p>
-			<div class='two spacing'></div>
+			<div class='spacing'></div>
+			<div class='four spacing'></div>
+
 			<div id="users">
 				<input class="search" placeholder="Search" />
 				<button class="sort" data-sort="subject">
@@ -78,21 +91,3 @@ section_id: portfolio
 	</div>
 	<div class='four spacing'></div>
 </div>
-	<script src="http://listjs.com/no-cdn/list.js"></script>
-	<script src='//wenzhixin.net.cn/p/multiple-select/assets/multiple-select/jquery.multiple.select.js'></script>
-
-	<script type="text/javascript">
-		var options = {
-			valueNames: [ 'project', 'subject' ]
-		};
-
-		var userList = new List('users', options);
-
-		jQuery( document ).ready(function() {
-			jQuery(".project-item").hover(function() {
-			    jQuery(this).addClass("list-hover");
-			}, function() {
-			    jQuery(this).removeClass("list-hover");
-			});
-		});
-	</script>

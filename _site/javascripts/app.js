@@ -258,7 +258,7 @@ jQuery(document).foundation();
         pauseOnHover: false,
         dots: true,
         speed: 1500,
-        autoplaySpeed: 15000,
+        autoplaySpeed: 2000,
         arrows: false
       });
 
@@ -802,4 +802,17 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 
+var options = {
+  valueNames: [ 'project', 'subject' ]
+};
+
+var userList = new List('users', options);
+
+jQuery( document ).ready(function() {
+  jQuery(".project-item").hover(function() {
+      jQuery(this).addClass("list-hover");
+  }, function() {
+      jQuery(this).removeClass("list-hover");
+  });
+});
 
