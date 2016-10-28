@@ -809,17 +809,10 @@ var options = {
 var userList = new List('users', options);
 
 jQuery( document ).ready(function() {
-  jQuery(".python-item").hover(function() {
-      jQuery(this).addClass("list-hover-python");
+  jQuery(".project-item").hover(function() {
+      jQuery(this).addClass("list-hover");
   }, function() {
-      jQuery(this).removeClass("list-hover-python");
+      jQuery(this).removeClass("list-hover");
   });
 });
 
-jQuery( document ).ready(function() {
-  jQuery(".scratch-item").hover(function() {
-      jQuery(this).addClass("list-hover-scratch");
-  }, function() {
-      jQuery(this).removeClass("list-hover-scratch");
-  });
-});
