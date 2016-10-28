@@ -803,7 +803,7 @@ jQuery(document).foundation();
 })(Tc.$);
 
 var options = {
-  valueNames: [ 'project', 'subject', 'language' ]
+  valueNames: [ 'project', 'subject' ]
 };
 
 var userList = new List('users', options);
