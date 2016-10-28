@@ -803,16 +803,21 @@ jQuery(document).foundation();
 })(Tc.$);
 
 var options = {
-  valueNames: [ 'project', 'subject' ]
+  valueNames: [ 'project', 'subject', 'language' ]
 };
 
 var userList = new List('users', options);
 
 jQuery( document ).ready(function() {
-  jQuery(".project-item").hover(function() {
-      jQuery(this).addClass("list-hover");
+  jQuery(".python-item").hover(function() {
+      jQuery(this).addClass("list-hover-python");
   }, function() {
-      jQuery(this).removeClass("list-hover");
+      jQuery(this).removeClass("list-hover-python");
+  });
+  jQuery(".scratch-item").hover(function() {
+      jQuery(this).addClass("list-hover-scratch");
+  }, function() {
+      jQuery(this).removeClass("list-hover-scratch");
   });
 });
 
