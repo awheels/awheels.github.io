@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  My love affair with the fuji x100t 
-date:   2015-09-12 07:20:05
+date:   2016-09-12 07:20:05
 categories:
   - Photography
 tags:

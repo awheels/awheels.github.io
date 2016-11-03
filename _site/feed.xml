@@ -6,17 +6,40 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Oct 2016 19:46:27 +0800</pubDate>
-    <lastBuildDate>Fri, 28 Oct 2016 19:46:27 +0800</lastBuildDate>
+    <pubDate>Wed, 02 Nov 2016 20:16:09 +0800</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2016 20:16:09 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Python Across the Subjects Workshop</title>
+        <description>&lt;p&gt;This past weekend I ran an introductory coding workshop that was focused on helping teachers to see opportunities for the integration of coding (specifically Python) across various subject areas. Examples of possible student programming tasks that align with the science, mathematics, languages and art curriculums were discussed. Thanks to everyone who attended and to AISG for hosting a fantastic event.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please feel free to contact me with any questions! I’m eager to collaborate and discuss coding and all the amazing ways that it can be integrated into our K-12 classrooms.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/17w3OfHLH0duK8SUZfwMd-piditXNweYwvr8ntMNn41A/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;780&quot; height=&quot;490&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 16:21:25 +0800</pubDate>
+        <link>/education/coding/2016/11/02/python-across-the-subjects-workshop.html</link>
+        <guid isPermaLink="true">/education/coding/2016/11/02/python-across-the-subjects-workshop.html</guid>
+        
+        <category>education</category>
+        
+        <category>coding</category>
+        
+        
+        <category>education</category>
+        
+        <category>coding</category>
+        
+      </item>
     
       <item>
         <title>Why teach kids to code</title>
         <description>&lt;p&gt;Coming soon!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 05 Oct 2015 18:20:05 +0800</pubDate>
-        <link>/coding/education/2015/10/05/why-teach-kids-to-code.html</link>
-        <guid isPermaLink="true">/coding/education/2015/10/05/why-teach-kids-to-code.html</guid>
+        <pubDate>Wed, 05 Oct 2016 18:20:05 +0800</pubDate>
+        <link>/coding/education/2016/10/05/why-teach-kids-to-code.html</link>
+        <guid isPermaLink="true">/coding/education/2016/10/05/why-teach-kids-to-code.html</guid>
         
         
         <category>coding</category>
@@ -41,9 +64,9 @@
 
 &lt;p&gt;Ok, so the kids know about binary now…big deal. And at this point I would agree because it is with context that things become interesting. Talking about how computers only understand binary, so all your of programs that you write are converted into binary using a compiler is pretty cool. But again, it adds very little context and they are just left with accepting it is a fact that is being told to them. So what does a teacher do when presented with the difficult teaching situation? &lt;a href=&quot;http://www.smh.com.au/entertainment/music/psys-gangnam-style-breaks-the-internet-20141204-11zusj.html&quot; target=&quot;_blank&quot;&gt;Resort to music videos on YouTube!&lt;/a&gt; Everyone knows Gangnam Style and some of your students might also be aware of the fact that it was responsible for breaking YouTube. But now they actually have the knowledge and understanding to grasp exactly how that happened. It is also a great piece of evidence to show that computer use binary, because if YouTube uses it then it must be true.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Sep 2015 18:20:05 +0800</pubDate>
-        <link>/coding/education/2015/09/22/teaching-binary.html</link>
-        <guid isPermaLink="true">/coding/education/2015/09/22/teaching-binary.html</guid>
+        <pubDate>Thu, 22 Sep 2016 18:20:05 +0800</pubDate>
+        <link>/coding/education/2016/09/22/teaching-binary.html</link>
+        <guid isPermaLink="true">/coding/education/2016/09/22/teaching-binary.html</guid>
         
         <category>coding</category>
         
@@ -82,9 +105,9 @@
 
 &lt;p&gt;These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 28mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I’m excited to continue my x100t love affair and see where it takes me!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 12 Sep 2015 15:20:05 +0800</pubDate>
-        <link>/photography/2015/09/12/my-love-affair-with-the-fuji-x100t.html</link>
-        <guid isPermaLink="true">/photography/2015/09/12/my-love-affair-with-the-fuji-x100t.html</guid>
+        <pubDate>Mon, 12 Sep 2016 15:20:05 +0800</pubDate>
+        <link>/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</link>
+        <guid isPermaLink="true">/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</guid>
         
         <category>photography</category>
         
