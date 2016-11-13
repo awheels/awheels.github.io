@@ -19,5 +19,4 @@ This past weekend I ran an introductory coding workshop that was focused on help
 
 Please feel free to contact me with any questions! I'm eager to collaborate and discuss coding and all the amazing ways that it can be integrated into our K-12 classrooms.<br><br>
 
-
-<iframe src="https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="2559" height="1469" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="780" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
