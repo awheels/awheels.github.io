@@ -6,8 +6,9 @@ categories:
   - Education
   - Coding
 tags:
-  - education
-  - coding
+  - python
+  - workshops
+  - learning coding
 author: Andrew Wheeler
 images:
   - images/PythonAcrossTheSubjects.png

@@ -6,9 +6,52 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Nov 2016 20:23:08 +0800</pubDate>
-    <lastBuildDate>Sun, 13 Nov 2016 20:23:08 +0800</lastBuildDate>
+    <pubDate>Sun, 27 Nov 2016 20:58:17 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Nov 2016 20:58:17 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Organizing my Teaching with Google Sheets and Trello</title>
+        <description>&lt;p&gt;Over the past several weeks I have been using a combination of Google Sheets and Trello for planning and organizing my teaching. It has been amazing! This is one of the first times that I have felt like I have a clear picture of where I am at on the giant list of things that I need to get done. So here is a breakdown of my three systems and how I’ve been using them. I’ve included links to the templates, so feel free to make copies for yourself.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;google-sheets-weekly-plan-shared-weekly-plan-templatehttpsdocsgooglecomspreadsheetsd1o2wxbbgyccmupcwobnu3lsmhxwxa2i1n2soxhvmfvfsedituspsharingtargetblank&quot;&gt;1. Google Sheets Weekly Plan &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1O2wXbBGYccMuPCwOBnu3LsmHXWXa2I1n2SoXHVMFVFs/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;(Shared Weekly Plan Template)&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;I used to use a paper planner for organizing my weeks/months but this never worked well for me. When things changed and I had to scratch things out or draw giant arrows all over the place I ended up more stressed than before I started planning. This led to me trying Google Calendar. This definitely has it’s benefits but for me it just seemed to do too much and the base usage that I was looking for was lost in the excess functionality. For example, if I wanted to change some things around it often meant a lot of clicking and editing of times and descriptions. This is when I tried Google Sheet (not sure what took me so long!). I’ve created a simple weekly template that allows me to just jot down rough descriptions of what the plan is for each of my lessons. I’m able to jump from week to week very quickly and easily to see how my units will line up in the upcoming weeks. If things change it is a quick and easy fix. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/googlesheet-weekly-plan.jpg&quot; alt=&quot;weeklyplan&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;google-sheets-unit-plans-shared-unit-plan-templatehttpsdocsgooglecomspreadsheetsd1fgheuxtr9iwhjaeuhycgw2xtvhoftvweczlhjksy8o4edituspsharingtargetblank&quot;&gt;2. Google Sheets Unit Plans &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1fghEuxTr9iWhJAEUHyCgW2xTVhofTvwECZLHJKsy8o4/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;(Shared Unit Plan Template)&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Now that I have had clear vision of what my coming weeks are going to look like it is time to lock down the specifics of my units. In the past I relied far too heavily on directories/folders on my computer. I honestly thought that this worked for me (I know better now!). I wanted the ability to quickly look at the bigger picture of my units and see how my lessons are lining up and be able to identify any gaps or issues. I also wanted something that was going to be reusable and easily shared. My units are far from perfect but to be able to continue to adapt and improve them I wanted something that was well documented and clear. This led to creating the template that you see below. It includes the title of the lesson, how many classes it will take, a description of what it will look like, the specific content/learning outcomes, links to all the resources used, and a section for extension material. All the linked resources are organized in my Google Drive. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/googlesheet-unit-plan-9.jpg&quot; alt=&quot;unitplan&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;trello&quot;&gt;3. Trello&lt;/h5&gt;
+
+&lt;p&gt;This is my best discovery! I’d used Trello in the past for some mini projects but I never really stuck with using it. I found that the projects that I’d used it for were not quite big enough, so I never gave Trello a chance to really shine. But over the last six months I’ve taken on some bigger projects and I’ve been enjoying Trello for these. But then I thought, “Hey…maybe I can use Trello to help me with keeping track of those million and a half things that I need to get done as a teacher.” I’m only 3 weeks into using it for this purpose, but so far it has been brilliant! I’ve created a list for my Weekly Plans, Must Do Tasks, No Rush Tasks, In Progress, and Completed Tasks.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;weekly-plans-list&quot;&gt;Weekly Plans List&lt;/h6&gt;
+
+&lt;p&gt;Each card in Weekly Plans represents a week and within that card I have checklists for all the lessons that I need to have prepared for each of my courses (using Google Sheet Weekly Planner). Once I have the whole week of lessons planned (using my Google Sheets Unit Planner) I check them all off and move the card to the bottom of the list.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;must-do-and-no-rush-lists&quot;&gt;Must Do and No Rush Lists&lt;/h6&gt;
+
+&lt;p&gt;My Must Do and No Rush Tasks are exactly what they sound like - all those little and big things that get piled onto our plates as teachers. Whenever another item gets added to my list of things to do I just add it here. I’m then able to sit down and knock things off one by one whenever I have some extra time. Previously I had no real tool for these types of things - I just tried to remember them (which had mixed results). This was probably the largest cause of stress for me because I always felt like I had so much to do but never had a clear picture of what all those things were. With Trello I can now sit down and see what I still have to do as well as see what I’ve already accomplished. I’m now also able to add cards for those things that I should be doing more of but just forget or avoid because I feel like there are other things that I need to get done first. For example, I’ve added a card for emailing parents with positive remarks regarding their child’s work in my math class. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;in-progress-list&quot;&gt;In Progress List&lt;/h6&gt;
+
+&lt;p&gt;For some of those bigger items that I cannot quite finish all in one sitting. Or also for things that I’ve started the ball rolling on but still need to do further follow ups on before finishing off.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/trello-planning.jpg&quot; alt=&quot;trelloplanning&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for taking the time to read this far! I hope some of what I’ve rambled about you find useful. I’d love to hear any other tips or tricks that people use to help them with organizing and planning.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Nov 2016 19:41:14 +0800</pubDate>
+        <link>/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</link>
+        <guid isPermaLink="true">/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</guid>
+        
+        <category>teaching</category>
+        
+        <category>google</category>
+        
+        
+        <category>education</category>
+        
+      </item>
     
       <item>
         <title>Python Across the Subjects Workshop</title>
@@ -16,15 +59,17 @@
 
 &lt;p&gt;Please feel free to contact me with any questions! I’m eager to collaborate and discuss coding and all the amazing ways that it can be integrated into our K-12 classrooms.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;iframe src=&quot;https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;2559&quot; height=&quot;1469&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;780&quot; height=&quot;490&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 02 Nov 2016 16:21:25 +0800</pubDate>
         <link>/education/coding/2016/11/02/python-across-the-subjects-workshop.html</link>
         <guid isPermaLink="true">/education/coding/2016/11/02/python-across-the-subjects-workshop.html</guid>
         
-        <category>education</category>
+        <category>python</category>
         
-        <category>coding</category>
+        <category>workshops</category>
+        
+        <category>learning coding</category>
         
         
         <category>education</category>
@@ -40,6 +85,10 @@
         <pubDate>Wed, 05 Oct 2016 18:20:05 +0800</pubDate>
         <link>/coding/education/2016/10/05/why-teach-kids-to-code.html</link>
         <guid isPermaLink="true">/coding/education/2016/10/05/why-teach-kids-to-code.html</guid>
+        
+        <category>teaching</category>
+        
+        <category>coding</category>
         
         
         <category>coding</category>
@@ -68,9 +117,11 @@
         <link>/coding/education/2016/09/22/teaching-binary.html</link>
         <guid isPermaLink="true">/coding/education/2016/09/22/teaching-binary.html</guid>
         
+        <category>mathematics</category>
+        
         <category>coding</category>
         
-        <category>education</category>
+        <category>teaching</category>
         
         
         <category>coding</category>
@@ -103,13 +154,11 @@
 
 &lt;p&gt;The above four items combine to create an amazing camera. It is literally changing the way I photograph and I know that it is going to help me evolve into a stronger photographer, both creatively and technically. Of course the looks of a camera play no part in the images that it creates, but having a beautiful looking camera sure is nice. Well, the Fuji x100t is exactly that, a straight up BEAUTIFUL camera. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img7.jpg&quot; alt=&quot;best-friends&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 28mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I’m excited to continue my x100t love affair and see where it takes me!&lt;/p&gt;
+&lt;p&gt;These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 23mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I’m excited to continue my x100t love affair and see where it takes me!&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Sep 2016 15:20:05 +0800</pubDate>
         <link>/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</link>
         <guid isPermaLink="true">/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</guid>
-        
-        <category>photography</category>
         
         <category>fuji</category>
         

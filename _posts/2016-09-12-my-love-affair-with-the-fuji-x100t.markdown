@@ -5,7 +5,6 @@ date:   2016-09-12 07:20:05
 categories:
   - Photography
 tags:
-  - photography
   - fuji
 author: Andrew Wheeler
 images:
@@ -36,4 +35,4 @@ I love photography not only for its creative and artistic side, but also for how
 
 The above four items combine to create an amazing camera. It is literally changing the way I photograph and I know that it is going to help me evolve into a stronger photographer, both creatively and technically. Of course the looks of a camera play no part in the images that it creates, but having a beautiful looking camera sure is nice. Well, the Fuji x100t is exactly that, a straight up BEAUTIFUL camera. <br><br>![best-friends](/images/20150912_img7.jpg)<br><br>
 
-These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 28mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I'm excited to continue my x100t love affair and see where it takes me!
+These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 23mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I'm excited to continue my x100t love affair and see where it takes me!

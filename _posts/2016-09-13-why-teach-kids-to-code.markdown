@@ -2,7 +2,12 @@
 layout: post
 title:  Why teach kids to code
 date:   2016-10-05 10:20:05
-categories: coding education
+categories: 
+- coding 
+- education
+tags:
+- teaching
+- coding
 author: Andrew Wheeler
 images:
   - images/20150913_img8.jpg

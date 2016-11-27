@@ -6,8 +6,9 @@ categories:
   - Coding
   - Education
 tags:
+  - mathematics
   - coding
-  - education
+  - teaching
 author: admin
 images:
   - images/20150914_img1.jpg
