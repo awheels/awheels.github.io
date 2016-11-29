@@ -20,7 +20,7 @@ layout: default
               /
               <span>
                 In
-                {% for cat in post.tag %}
+                {% for cat in post.tags %}
                   <a href="#">{{cat}}</a>
                   {% unless forloop.last %}
                       ,
