@@ -3,10 +3,10 @@ layout: post
 title:  Organizing my Teaching with Google Sheets and Trello
 date:   2016-11-27 11:41:14
 categories: 
-- education
+  - education
 tags:
-- teaching
-- google
+  - teaching
+  - google
 author: Andrew Wheeler
 images:
   - images/googlesheet-unit-plan.jpg

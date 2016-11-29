@@ -3,8 +3,8 @@ layout: post
 title:  Teaching Binary
 date:   2016-09-22 10:20:05
 categories:
-  - Coding
-  - Education
+  - coding
+  - education
 tags:
   - mathematics
   - coding

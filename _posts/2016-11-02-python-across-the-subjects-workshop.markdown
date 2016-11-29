@@ -3,8 +3,8 @@ layout: post
 title:  Python Across the Subjects Workshop 
 date:   2016-11-02 08:21:25
 categories:
-  - Education
-  - Coding
+  - education
+  - coding
 tags:
   - python
   - workshops
