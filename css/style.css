@@ -3587,3 +3587,6 @@ input:focus {
 .list-hover-scratch {
   background-color: rgba(54, 122, 138, 0.58) !important;
 }
+.list-hover {
+  background-color: #f3f3f3 !important;
+}
