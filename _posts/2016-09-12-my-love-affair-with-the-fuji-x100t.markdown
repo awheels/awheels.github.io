@@ -6,7 +6,7 @@ categories:
   - photography
 tags:
   - fuji
-author: Andrew Wheeler
+author: Drew Wheeler
 images:
   - images/20150912_img1.jpg
 excerpt:

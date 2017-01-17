@@ -9,7 +9,7 @@ tags:
   - python
   - workshops
   - learning coding
-author: Andrew Wheeler
+author: Drew Wheeler
 images:
   - images/PythonAcrossTheSubjects.png
 excerpt:

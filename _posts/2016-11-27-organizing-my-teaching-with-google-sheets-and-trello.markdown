@@ -7,7 +7,7 @@ categories:
 tags:
   - teaching
   - google
-author: Andrew Wheeler
+author: Drew Wheeler
 images:
   - images/googlesheet-unit-plan.jpg
 excerpt:
