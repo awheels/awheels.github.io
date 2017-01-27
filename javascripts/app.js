@@ -69,23 +69,6 @@ jQuery(document).foundation();
 
     });
 
-    $('form#contact_form').validate({
-      messages: { },
-      submitHandler: function(form) {
-        $.ajax({
-          type: 'POST',
-          url: 'send.php',
-          data: $(form).serialize(),
-          success: function(data) {
-            if(data.match(/success/)) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
-          }
-        });
-        return false;
-      }
-    });
 
     if($('.masonry-container').length > 0) {
 
@@ -314,46 +297,6 @@ jQuery(document).foundation();
     },
     onBinding: function() {
       var $ctx = this.$ctx;
-    }
-  })
-})(Tc.$);
-(function($) {
-  Tc.Module.Clients = Tc.Module.extend({
-    init: function($ctx, sandbox, modId) {
-      this._super($ctx, sandbox, modId);
-    },
-    dependencies: function() {
-      // this.require('slick.min.js', 'plugin', 'onBinding');
-    },
-    onBinding: function() {
-      var $ctx = this.$ctx;
-
-      var slides_to_show = $ctx.data('slides_to_show');
-
-      $('.clients', $ctx).slick({
-        slidesToShow: slides_to_show,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: false,
-        responsive: [
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-
     }
   })
 })(Tc.$);
@@ -736,19 +679,6 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.PriceBox = Tc.Module.extend({
-    init: function($ctx, sandbox, modId) {
-      this._super($ctx, sandbox, modId);
-    },
-    dependencies: function() {
-      // this.require('jquery.ui.core.js', 'plugin', 'onBinding');
-    },
-    onBinding: function() {
-      var $ctx = this.$ctx;
-    }
-  })
-})(Tc.$);
-(function($) {
   Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
@@ -757,47 +687,6 @@ jQuery(document).foundation();
     },
     onBinding: function() {
       var $ctx = this.$ctx;
-    }
-  })
-})(Tc.$);
-(function($) {
-  Tc.Module.TeamMember = Tc.Module.extend({
-    init: function($ctx, sandbox, modId) {
-      this._super($ctx, sandbox, modId);
-    },
-    dependencies: function() {
-      // this.require('jquery.ui.core.js', 'plugin', 'onBinding');
-    },
-    onBinding: function() {
-      var $ctx = this.$ctx;
-    }
-  })
-})(Tc.$);
-(function($) {
-  Tc.Module.Testimonials = Tc.Module.extend({
-    init: function($ctx, sandbox, modId) {
-      this._super($ctx, sandbox, modId);
-    },
-    dependencies: function() {
-      // this.require('slick.min.js', 'plugin', 'onBinding');
-    },
-    onBinding: function() {
-      var $ctx = this.$ctx;
-
-      var show_dots = true;
-
-      if ($ctx.hasClass('simple')) {
-        show_dots = false;
-      }
-
-      $('.items', $ctx).slick({
-        autoplay: true,
-        pauseOnHover: false,
-        dots: show_dots,
-        speed: 1500,
-        arrows: false
-      });
-
     }
   })
 })(Tc.$);
@@ -820,4 +709,57 @@ jQuery( document ).ready(function() {
       jQuery(this).removeClass("list-hover-scratch");
   });
 });
+
+
+jQuery(window).load(function(){
+  jQuery('.grid').masonry({  
+    itemSelector: '.grid-item',
+    isFitWidth: true,
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  });
+});
+
+jQuery('.grid').imagesLoaded().progress( function() {
+  jQuery('.grid').masonry();
+});
+
+
+jQuery(document).ready(function($){
+
+  var $ctx = this.$ctx;
+
+  $('.snapshot-nav h3', $ctx).hover(function() {
+
+    var cat = $(this).attr('data-cat');
+
+    var gallery = $('.snapshot-nav').closest('.snapshots-about-me').find('ul.snapshots-images');
+
+    if (cat === 'all') {
+      $('li', gallery).removeClass('hidden');
+      $('li', gallery).addClass('visible');
+    } else {
+      $('li', gallery).each(function() {
+        if ($(this).hasClass(cat)) {
+          $(this).removeClass('hidden');
+          $(this).addClass('visible');
+        } else {
+          $(this).addClass('hidden');
+          $(this).removeClass('visible');
+        }
+      });
+    }
+
+    return false;
+
+  }, function(){
+    var gallery = $('.snapshot-nav').closest('.snapshots-about-me').find('ul.snapshots-images');
+    
+    $('li', gallery).removeClass('hidden');
+    $('li', gallery).addClass('visible');
+
+  }
+  );
+});
+
 
