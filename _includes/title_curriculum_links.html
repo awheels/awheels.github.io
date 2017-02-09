@@ -1,0 +1,27 @@
+<div class="title-group">
+    <h1 class="special">
+        <span>
+            Curricular Links
+        </span>
+    </h1>
+    <p class="lead">
+        Coding curriculum links.
+    </p>
+</div>
+
+<div class="btn-group btn-group-justified" role="group" style="margin-top:50px; margin-bottom:50px;">
+    <div class="btn-group" role="group">
+        {% if page.url contains 'math9' %}
+        <a href="../../math9/unit3" type="button" class="btn btn-default active">Math 9</a>
+        {% else %}
+        <a href="../../math9/unit3" type="button" class="btn btn-default">Math 9</a>
+        {% endif %}
+    </div>
+    <div class="btn-group" role="group">
+        {% if page.url contains 'math10' %}
+        <a href="../../math10/unit3" type="button" class="btn btn-default active">Math 10</a>
+        {% else %}
+        <a href="../../math10/unit3" type="button" class="btn btn-default">Math 10</a>
+        {% endif %}
+    </div>
+</div>
