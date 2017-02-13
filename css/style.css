@@ -3603,6 +3603,9 @@ input:focus {
 .grid-item img {
   max-width: 100%;
 }
+.snapshots-images {
+  list-style: none;
+}
 .snapshots-about-me .snapshots-images .hidden {
   opacity:0.1;
   -webkit-transition: all 1s ease;

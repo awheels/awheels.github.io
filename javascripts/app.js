@@ -821,6 +821,19 @@ jQuery( document ).ready(function() {
   });
 });
 
+jQuery(window).load(function(){
+  jQuery('.grid').masonry({  
+    itemSelector: '.grid-item',
+    isFitWidth: true,
+    percentPosition: true,
+    columnWidth: '.grid-sizer'
+  });
+});
+
+jQuery('.grid').imagesLoaded().progress( function() {
+  jQuery('.grid').masonry();
+});
+
 jQuery(document).ready(function($){
 
   var $ctx = this.$ctx;
