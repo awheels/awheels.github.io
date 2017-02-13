@@ -9,19 +9,19 @@
     </p>
 </div>
 
-<div class="btn-group btn-group-justified" role="group" style="margin-top:50px; margin-bottom:50px;">
-    <div class="btn-group" role="group">
-        {% if page.url contains 'math9' %}
-        <a href="../../math9/unit3" type="button" class="btn btn-default active">Math 9</a>
-        {% else %}
-        <a href="../../math9/unit3" type="button" class="btn btn-default">Math 9</a>
-        {% endif %}
-    </div>
-    <div class="btn-group" role="group">
-        {% if page.url contains 'math10' %}
-        <a href="../../math10/unit3" type="button" class="btn btn-default active">Math 10</a>
-        {% else %}
-        <a href="../../math10/unit3" type="button" class="btn btn-default">Math 10</a>
-        {% endif %}
-    </div>
+<div class="row">
+  <div class="large-6 large-centered columns">
+    <ul class="button-group even-2">
+      {% if page.url contains 'math' %}
+      <li><a href="#" class="button" style="background:lightgray">Mathematics</a></li>
+      {% else %}
+      <li><a href="../../portfolio_items/math_links/curricular_links.html" class="button">Mathematics</a></li>
+      {% endif %}
+      {% if page.url contains 'other' %}
+      <li><a href="#" class="button" style="background:lightgray">Other</a></li>
+      {% else %}
+      <li><a href="../../portfolio_items/other_links/curricular_links.html" class="button">Other</a></li>
+      {% endif %}
+    </ul>
+  </div>
 </div>
