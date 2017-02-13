@@ -3590,7 +3590,19 @@ input:focus {
 .list-hover {
   background-color: #f3f3f3 !important;
 }
-
+.grid-item {
+  float: left;
+}
+.grid-sizer,
+.grid-item {
+  width: 25%;
+}
+.grid {
+  margin: 0 auto;
+}
+.grid-item img {
+  max-width: 100%;
+}
 .snapshots-about-me .snapshots-images .hidden {
   opacity:0.1;
   -webkit-transition: all 1s ease;
@@ -3598,7 +3610,6 @@ input:focus {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-
 .snapshots-about-me .snapshots-images .visible {
   opacity:1;
   -webkit-transition: all 1.5s ease;
@@ -3606,7 +3617,6 @@ input:focus {
   -o-transition: all 1.5s ease;
   transition: all 1.5s ease;
 }
-
 .secondary-nav-scrolled {
   position: fixed;
   width: 100%;
