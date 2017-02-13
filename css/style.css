@@ -268,7 +268,7 @@ ul.shortcode-list i {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
+.contain-to-grid .primary-nav-bar .top-bar-section li:not(.has-form) a:not(.button) {
   height: 100px;
 }
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
@@ -309,7 +309,7 @@ ul.shortcode-list i {
 .f-topbar-fixed.shrink .contain-to-grid {
   height: 60px;
 }
-.f-topbar-fixed.shrink .top-bar {
+.f-topbar-fixed.shrink .primary-nav-bar {
   height: 60px;
   line-height: 60px;
   -moz-transition-duration: 0.2s;
@@ -317,7 +317,7 @@ ul.shortcode-list i {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
+.f-topbar-fixed.shrink .primary-nav-bar .top-bar-section li:not(.has-form) a:not(.button) {
   height: 60px;
   line-height: 60px;
   -moz-transition-property: all;
