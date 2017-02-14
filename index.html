@@ -49,18 +49,18 @@ services:
   <nav class='top-bar secondary-nav' role="navigation" style="background: #fff; height: 100px; z-index: 150; margin-bottom: -100px; box-shadow: 0 2px 3px rgba(0,0,0,.4); text-align:center; max-width:100%;">
     <section class='top-bar-section' style="display:inline-block;">
       <ul>
-        <li><a href="#">Button 1</a></li>
-        <li><a href="#">Button 2</a></li>
-        <li><a href="#">Button 3</a></li>
-        <li><a href="#">Button 4</a></li>
-        <li><a href="#">Button 5</a></li>
+        <li><a href="#snapshot">Snapshot About Me</a></li>
+        <li><a href="#teacher">The Teacher</a></li>
+        <li><a href="#learner">The Learner</a></li>
+        <li><a href="#developer">The Developer</a></li>
+        <li><a href="#creator">The Creator</a></li>
       </ul>
     </section>
   </nav>
 </div>
 
 <div style="padding-top:100px;">
-  <div class="row snapshots-about-me">
+  <div id="snapshot" class="row snapshots-about-me">
     <div class='large-12 columns'>
       <div class='spacing'></div>
       <h3>
@@ -143,58 +143,61 @@ services:
   </div>
 
 <div class='two spacing'></div>
-<div class='row'>
+<hr>
+<div class='two spacing'></div>
+
+<div id='teacher' class='row'>
   <div class='large-12 columns'>
     <h3>
-      Recent projects
-      /
-      <a href='portfolio.html'>View more</a>
+      The Teacher
     </h3>
     <div class='spacing'></div>
   </div>
-  <div class='mod modGallery'>
-    <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-      {% for work in page.works %}
-        <li class='{{work.class}}'>
-          <a href='{{work.link_to}}'>
-            <img alt="" src="{{work.image}}" />
-            <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
-              <div class='thumb-info'>
-                <h3>{{work.title}}</h3>
-                <p>{{work.desc}}</p>
-              </div>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
 </div>
+
 <div class='two spacing'></div>
 <hr>
 <div class='two spacing'></div>
-<div class='row'>
+
+<div id='learner' class='row'>
   <div class='large-12 columns'>
-    <h3>Skills</h3>
-    <div class='two spacing'></div>
+    <h3>
+      The Learner
+    </h3>
+    <div class='spacing'></div>
   </div>
 </div>
-<div class='row' style="display: flex; justify-content: space-between;"> 
-  {% for service in page.services %}
-    <div class='medium-3 large-3 columns'>
-      <div class='fadein mod modIconText' data-delay='{{ 200 | times:forloop.index0 }}'>
-        <div class='icon-text-circle'>
-          <i class='{{service.icon_class}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-        <div class='two spacing'></div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
+
+<div class='two spacing'></div>
 <hr>
 <div class='two spacing'></div>
+
+<div id='developer' class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      The Developer
+    </h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+
+<div class='two spacing'></div>
+<hr>
+<div class='two spacing'></div>
+
+<div id='creator' class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      The Creator
+    </h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+
+<div class='two spacing'></div>
+<hr>
+<div class='two spacing'></div>
+
 <div class='row'>
   <div class='large-12 columns'>
     <h3>
