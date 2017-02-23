@@ -1,17 +1,22 @@
 ---
 layout: curric_links
 section_id: portfolio
-lessons:
-  - title: Similar Triangles and Trig Ratios Part 1
-    ln_desc: 
-    ln_link: https://www.scribd.com/embeds/335560799/content?start_page=1&view_mode=scroll&access_key=key-8yf1Dy8agVNDobw5yhRf&show_recommendations=false
-    ln_citation: 1
-    ln_citation_name: Sam J Shah
-    ln_citation_link: http://www.samjshah.com
-    problem_set_title: Similar Triangles and Trig Ratios Part 1
-    problem_set_desc: I know it will be tempting to use your calculator here. But please do not!
-    problem_set_link: https://www.scribd.com/embeds/335559450/content?start_page=1&view_mode=scroll&access_key=key-QEIMYYeytReLWq87Eisw&show_recommendations=false
-
+items:
+  - title: Temperature Simulation
+    topic: Science
+    difficulty:
+    - one
+    - two
+    - three
+  - title: Patterns
+    topic: Art
+    difficulty: 
+    - one
+    - two
+  - title: Madlib
+    topic: Languages
+    difficulty: 
+    - one
 ---
 
 <div class="row">
@@ -19,52 +24,38 @@ lessons:
     <div id="page">
 
         <!-- Zozo Tabs Start-->
-        <div id="tabbed-nav2">
+        <div id="tabbed-nav2" class="z-tabs-loading">
 
             <!-- Tab Navigation Menu -->
             <ul>
-                <li><a>Overview<span>New Features in Zozo Tab</span></a></li>
-                <li><a>Subscribe<span>New Releases and Updates</span></a></li>
-                <li><a>Themes<span>10 Preset themes</span></a></li>
-                <li><a>Support<span>Step-by-step Guide</span></a></li>
-                <li><a>Purchase<span>Get Zozo Tabs Now!</span></a></li>
+                {% for x in page.items %}
+                <li><a>{{x.title}}<span>{{x.topic}}</span></a></li>
+                {% endfor %}
             </ul>
 
             <!-- Content container -->
             <div>
-
-                <!-- Overview -->
-                <div>
-                    <h4>Overview</h4>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
+                {% for x in page.items %}
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <h4>Title: {{x.title}}</h4>
+                        <div class="medium-6 columns" style="padding-left:0; padding-right:0;">
+                            <h4>Topic: {{x.topic}}</h4>
+                        </div>
+                        <div class="medium-6 columns" style="padding-left:0; padding-right:0;">
+                            <h4>
+                                Difficulty:
+                                {% for i in x.difficulty %}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                {% endfor %}
+                            </h4>
+                        </div>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
+                    </div>
                 </div>
-
-                <!-- Subscribe -->
-                <div>
-                    <h4>Subscribe</h4>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
-                </div>
-
-                <!-- Themes -->
-                <div>
-                    <h4>Themes</h4>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
-                </div>
-
-                <!-- Support -->
-                <div>
-                    <h4>Support</h4>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
-                </div>
-
-                <!-- Purchase -->
-                <div>
-                    <h4>Purchase</h4>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
-                </div>
-
+                {% endfor %}
             </div>
-
+            <span class="z-spinner"></span>
         </div>
         <!-- Zozo Tabs End-->
     </div>
@@ -72,23 +63,22 @@ lessons:
 </div>
 
 
-    <script>
-        jQuery(document).ready(function ($) {
-
-            /* jQuery activation and setting options for second tabs*/
-            $("#tabbed-nav2").zozoTabs({
-                position: "top-left",
-                orientation: "vertical",
-                multiline: true,
-                style: "contained",
-                theme: "flat-sun-flower flat",
-                spaced: true,
-                rounded: false,
-                animation: {
-                    easing: "easeInOutExpo",
-                    duration: 450,
-                    effects: "slideH"
-                }
-            });
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-sun-flower flat",
+            spaced: true,
+            rounded: false,
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
         });
-    </script>
+    });
+</script>

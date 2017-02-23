@@ -1,27 +1,35 @@
-<div class="title-group">
-    <h1 class="special">
-        <span>
-            Curricular Links
-        </span>
-    </h1>
-    <p class="lead">
-        Coding curriculum links.
-    </p>
-</div>
 
 <div class="row">
-  <div class="large-6 large-centered columns">
-    <ul class="button-group even-2">
+  <div class="title-group" style="margin-top:40px;">
+      <h1 class="special">
+          <span style="margin-left:10px;">
+              Curriculum Links
+          </span>
+      </h1>
+      <p class="lead" style="margin-bottom:20px; margin-left:10px;">
+          Below you will find a collection of potential coding tasks that integrate into various curricular subjects. There is currently an emphasis towards mathematics, but I plan to work towards adding more examples from a range of subjects. This is a work in progress, so any feedback is welcome!
+      </p>
+  </div>
+
+
+  <div class="large-8 large-centered columns">
+    <ul class="button-group stack-for-small even-3">
       {% if page.url contains 'math' %}
-      <li><a href="#" class="button" style="background:lightgray">Mathematics</a></li>
+      <li><a href="#" class="button">Mathematics<span class='language-subtext'>Python</span></a></li>
       {% else %}
-      <li><a href="../../portfolio_items/math_links/curricular_links.html" class="button">Mathematics</a></li>
+      <li><a href="../../portfolio_items/math_links/curricular_links.html" class="button" style="color: black; background:#EFF0F2">Mathematics<span class='language-subtext'>Python</span></a></li>
       {% endif %}
       {% if page.url contains 'other' %}
-      <li><a href="#" class="button" style="background:lightgray">Other</a></li>
+      <li><a href="#" class="button">Other Subjects<span class='language-subtext'>Python</span></a></li>
       {% else %}
-      <li><a href="../../portfolio_items/other_links/curricular_links.html" class="button">Other</a></li>
+      <li><a href="../../portfolio_items/other_links/curricular_links.html" class="button" style="color: black; background:#EFF0F2">Other Subjects<span class='language-subtext'>Python</span></a></li>
+      {% endif %}
+      {% if page.url contains 'scratch' %}
+      <li><a href="#" class="button">Scratch<span class='language-subtext'>Examples</span></a></li>
+      {% else %}
+      <li><a href="../../portfolio_items/scratch_links/curricular_links.html" class="button" style="color: black; background:#EFF0F2">Scratch<span class='language-subtext'>Examples</span></a></li>
       {% endif %}
     </ul>
   </div>
 </div>
+

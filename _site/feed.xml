@@ -6,9 +6,30 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Feb 2017 08:48:45 +0800</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2017 08:48:45 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Feb 2017 19:30:54 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2017 19:30:54 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>My &quot;Why Learn Coding?&quot; Game</title>
+        <description>&lt;iframe src=&quot;/google_game/index.html&quot; name=&quot;whylearncoding?&quot; width=&quot;800&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt; &amp;gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 12 Feb 2017 16:14:54 +0800</pubDate>
+        <link>/coding/education/2017/02/12/my-why-learn-coding-game.html</link>
+        <guid isPermaLink="true">/coding/education/2017/02/12/my-why-learn-coding-game.html</guid>
+        
+        <category>coding</category>
+        
+        <category>games</category>
+        
+        <category>education</category>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
     
       <item>
         <title>Organizing my Teaching with Google Sheets and Trello</title>

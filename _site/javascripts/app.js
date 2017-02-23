@@ -821,3 +821,23 @@ jQuery( document ).ready(function() {
   });
 });
 
+
+jQuery(document).ready(function ($) {
+
+    /* jQuery activation and setting options for second tabs*/
+    $("#tabbed-nav2").zozoTabs({
+        position: "top-left",
+        orientation: "vertical",
+        multiline: true,
+        style: "contained",
+        theme: "flat-sun-flower flat",
+        spaced: true,
+        rounded: false,
+        animation: {
+            easing: "easeInOutExpo",
+            duration: 450,
+            effects: "slideH"
+        }
+    });
+});
+
