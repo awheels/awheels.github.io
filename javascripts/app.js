@@ -903,7 +903,7 @@ jQuery(document).ready(function($){
     $(".secondary-nav a").click(function(evn){
         evn.preventDefault();
         $('html,body').scrollTo(this.hash, 750, {
-          offset: -160,
+          offset: -217,
         });
     });
 
@@ -924,12 +924,11 @@ jQuery(document).ready(function($){
         var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
         var windowHeight = $(window).height(); // get the height of the window
         var docHeight = $(document).height();
-
         for (var i=0; i < aArray.length; i++) {
             var theID = aArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-            var divHeight = $(theID).height(); // get the height of the div in question
-            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+            var divHeight = $(theID).height(); // get the height of the div in questions
+            if (windowPos + 220 >= divPos && windowPos + 100 < (divPos + divHeight)) {
                 $("a[href='" + theID + "']").addClass("nav-active");
             } else {
                 $("a[href='" + theID + "']").removeClass("nav-active");

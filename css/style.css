@@ -3626,5 +3626,5 @@ input:focus {
   top: 60px;
 }
 .secondary-nav a.nav-active {
-    background-color:blue !important;
+    background-color:#f2f2f2 !important;
 }
