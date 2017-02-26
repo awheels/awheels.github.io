@@ -1,0 +1,84 @@
+---
+layout: curric_links
+section_id: portfolio
+items:
+  - title: Temperature Simulation
+    topic: Science
+    difficulty:
+    - one
+    - two
+    - three
+  - title: Patterns
+    topic: Art
+    difficulty: 
+    - one
+    - two
+  - title: Madlib
+    topic: Languages
+    difficulty: 
+    - one
+---
+
+<div class="row">
+    <div id="ribbon"></div>
+    <div id="page">
+
+        <!-- Zozo Tabs Start-->
+        <div id="tabbed-nav2" class="z-tabs-loading">
+
+            <!-- Tab Navigation Menu -->
+            <ul>
+                {% for x in page.items %}
+                <li><a>{{x.title}}<span>{{x.topic}}</span></a></li>
+                {% endfor %}
+            </ul>
+
+            <!-- Content container -->
+            <div>
+                {% for x in page.items %}
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <h4>Title: {{x.title}}</h4>
+                        <div class="medium-6 columns" style="padding-left:0; padding-right:0;">
+                            <h4>Topic: {{x.topic}}</h4>
+                        </div>
+                        <div class="medium-6 columns" style="padding-left:0; padding-right:0;">
+                            <h4>
+                                Difficulty:
+                                {% for i in x.difficulty %}
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                {% endfor %}
+                            </h4>
+                        </div>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <span class="z-spinner"></span>
+        </div>
+        <!-- Zozo Tabs End-->
+    </div>
+    <div class='two spacing'></div>
+</div>
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-sun-flower flat",
+            spaced: true,
+            rounded: false,
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
+        });
+    });
+</script>

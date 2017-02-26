@@ -1,0 +1,90 @@
+---
+layout: learn_little_python
+section_id: portfolio
+items:
+  - title: 1 - Comments
+    google_link: https://docs.google.com/document/d/1BRhG1Dy4qJsOnoc-JFUPCt8Gn4qe1dUdU5_tFUZ_jJs/pub?embedded=true
+  - title: 2- Inputs & Outputs
+    google_link: https://docs.google.com/document/d/1FnRLTqmCO_T0hrt9BvVSeON6WVqRka59Ct1bUUhDSZk/pub?embedded=true
+  - title: 3 - Variables
+    google_link: https://docs.google.com/document/d/12tXcNJssb0Ff5vi1hSWx1E1di-QHiKJBpQPeT65IX_U/pub?embedded=true
+  - title: 4 - Types of Data
+    google_link: https://docs.google.com/document/d/1-helNWDZS7Mu22GK7HkuvGm0O1YCS67132cIRtYHVC4/pub?embedded=true
+  - title: 5 - Conditionals
+    google_link: https://docs.google.com/document/d/1Z6MKfxXRqfAuh8nhDrCXGyZYNeEghBWH_J-Mt2u4gdI/pub?embedded=true
+  - title: 6 - While Loops
+    google_link: https://docs.google.com/document/d/1h1AeKI03ugBeLufhGGQWAIMddjwq11eny1MeGeQd22I/pub?embedded=true
+  - title: 7 - For Loops
+    google_link:
+
+---
+
+<div class="row">
+    <div class="medium-12 columns">
+        <div class="title-group" style="margin-top:40px;">
+            <h1 class="special">Learn a Little Python Curriculum</h1>
+            <p class="lead">I'm interested in the many potential applications of coding in education. I believe that with some basic coding skills, students have the potential to start creating programs of their own that can be applied to many different areas. These areas include school based subjects such as mathematics, science, art and languages. But to get students to this point, they need to get them the foundational skills.</p>
+            <br>
+            <p class="lead">I have decided to try writing my own little 'Learn a Little Python' curriculum. At the very least, I see it as something that will help me to further develop and explore my own thoughts and strategies for teaching kids coding. It is a work in progress and I am not anywhere close to being an expert programmer, so please feel free to reach out with any advice or suggestions.</p>
+        </div>
+    </div>
+</div>
+
+<div class='full' style="padding: 40px 0 0;">
+    <div class="row">
+        <div id="ribbon"></div>
+        <div id="page">
+
+            <!-- Zozo Tabs Start-->
+            <div id="tabbed-nav2" class="z-tabs-loading">
+
+                <!-- Tab Navigation Menu -->
+                <ul>
+                    {% for x in page.items %}
+                    <li><a>{{x.title}}</a></li>
+                    {% endfor %}
+                </ul>
+
+                <!-- Content container -->
+                <div>
+                    {% for x in page.items %}
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            {% if x.google_link %}
+                            <iframe src="{{x.google_link}}" height="600" width="100%"></iframe>
+                            {% else %}
+                            <h3>Coming soon!</h3>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <span class="z-spinner"></span>
+            </div>
+            <!-- Zozo Tabs End-->
+        </div>
+        <div class='two spacing'></div>
+    </div>
+</div>
+
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-carrot flat",
+            spaced: true,
+            rounded: false,
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
+        });
+    });
+</script>

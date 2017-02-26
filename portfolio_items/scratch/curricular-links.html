@@ -1,0 +1,69 @@
+---
+layout: curric_links
+section_id: portfolio
+items:
+  - title: Pong Arcade Game
+    topic: Mathematics
+    google_link: https://docs.google.com/document/d/1szLRQ7YLYR08jBh_iQIgxhQClimz-nLhbHb2P_derZs/pub?embedded=true
+  - title: Coin Toss Simulation
+    topic: Mathematics
+    google_link: https://docs.google.com/document/d/1OQL5DfJPBBRcg0PJpfMPmO59WKqD8euEY3OZcTlDIE8/pub?embedded=true
+  - title: Temperature Simulation
+    topic: Science
+    google_link: https://docs.google.com/document/d/1FgHk4iksd1REPQM_ClTr4-CFcbieT2yRoCd5JqDccpw/pub?embedded=true
+---
+
+<div class='full' style="padding: 40px 0 0;">
+    <div class="row">
+        <div id="ribbon"></div>
+        <div id="page">
+
+            <!-- Zozo Tabs Start-->
+            <div id="tabbed-nav2" class="z-tabs-loading">
+
+                <!-- Tab Navigation Menu -->
+                <ul>
+                    {% for x in page.items %}
+                    <li><a>{{x.title}}<span>{{x.topic}}</span></a></li>
+                    {% endfor %}
+                </ul>
+
+                <!-- Content container -->
+                <div>
+                    {% for x in page.items %}
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <iframe src="{{x.google_link}}" height="600" width="100%"></iframe>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <span class="z-spinner"></span>
+            </div>
+            <!-- Zozo Tabs End-->
+        </div>
+        <div class='two spacing'></div>
+    </div>
+</div>
+
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-sun-flower flat",
+            spaced: true,
+            rounded: false,
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
+        });
+    });
+</script>
