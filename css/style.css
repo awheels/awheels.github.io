@@ -3653,7 +3653,7 @@ input:focus {
 .image-header .header-text-container {
   position: absolute;
   top:40%;
-  font-size: 30px;
+  font-size: 26px;
   margin: 0 auto; 
   width:90%; 
   text-transform: uppercase; 
@@ -3681,4 +3681,31 @@ input:focus {
     font-size:60px; 
   }
 }
+
+#snapshot a, #teacher a, #learner a, #developer a, #creator a {
+  text-decoration: underline;
+  color: #333;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#snapshot a:hover, #teacher a:hover, #learner a:hover, #developer a:hover, #creator a:hover {
+  color: #F9CE06;
+}
+
+#snapshot .button, #teacher .button, #learner .button, #developer .button, #creator .button {
+  color: #fff;
+  text-decoration: none;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#snapshot .button:hover, #teacher .button:hover, #learner .button:hover, #developer .button:hover, #creator .button:hover {
+  color: #fff;
+}
+
 
