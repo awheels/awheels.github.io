@@ -903,7 +903,7 @@ jQuery(document).ready(function($){
     $(".secondary-nav a").click(function(evn){
         evn.preventDefault();
         $('html,body').scrollTo(this.hash, 750, {
-          offset: -217,
+          offset: -117,
         });
     });
 
@@ -928,7 +928,7 @@ jQuery(document).ready(function($){
             var theID = aArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page
             var divHeight = $(theID).height(); // get the height of the div in questions
-            if (windowPos + 220 >= divPos && windowPos + 100 < (divPos + divHeight)) {
+            if (windowPos + 120 >= divPos && windowPos + 120 < (divPos + divHeight)) {
                 $("a[href='" + theID + "']").addClass("nav-active");
             } else {
                 $("a[href='" + theID + "']").removeClass("nav-active");
@@ -943,4 +943,22 @@ jQuery(document).ready(function($){
             }
         }
     });
+});
+
+
+jQuery(document).ready(function($){
+
+  $(function () {
+    count = 0;
+    wordsArray = ["an educator.", "a developer.", "a creator.", "a learner."];
+    colorArray = ["word-color1", "word-color2", "word-color3"];
+    setInterval(function () {
+      count++;
+      $("#word").fadeOut(400, function () {
+        $(this).removeAttr('class');
+        $(this).addClass(colorArray[count % colorArray.length]);
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+      });
+    }, 4000);
+  });
 });

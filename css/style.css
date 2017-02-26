@@ -3628,3 +3628,57 @@ input:focus {
 .secondary-nav a.nav-active {
     background-color:#f2f2f2 !important;
 }
+.word-color1 {
+  background: #4ABDAC;
+}
+.word-color2 {
+  background: #FE491A;
+}
+.word-color3 {
+  background: #FAB438;
+}
+.image-header {
+  background: url(../images/header-wide.png) no-repeat center center;
+  height:550px; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+}
+#word {
+  display:inline-block; 
+  margin-top:30px; 
+  padding:30px;
+}
+.image-header .header-text-container {
+  position: absolute;
+  top:40%;
+  font-size: 30px;
+  margin: 0 auto; 
+  width:90%; 
+  text-transform: uppercase; 
+  color: white;
+}
+.image-header .header-text-container .header-intro-text {
+  display: block;
+}
+
+@media only screen and (max-width: 60em) {
+  .image-header .header-text-container {
+    text-align:center;
+    line-height:40px;
+  }
+  #word {
+    font-size:30px; 
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .image-header .header-text-container {
+    text-align:left;
+  }
+  #word {
+    font-size:60px; 
+  }
+}
+
