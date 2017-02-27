@@ -821,24 +821,17 @@ jQuery( document ).ready(function() {
   });
 });
 
+
 jQuery(window).load(function(){
+  jQuery(window).resize(function(){ jQuery('.grid').masonry('reloadItems').masonry(); });
   jQuery('.grid').masonry({  
     itemSelector: '.grid-item',
     isFitWidth: true,
     percentPosition: true,
     columnWidth: '.grid-sizer'
-  });
-});
-
-jQuery(document).ready(function($){
-  $(window).load(function(){
-      $('.container').masonry({
-          transitionDuration: 0,
-          itemSelector: '.photo-box'
-      }).imagesLoaded(function() {
-          jQuery('.grid').masonry('reloadItems').masonry();
-      });
-  });
+    }).imagesLoaded(function() {
+      jQuery('.grid').masonry('reloadItems').masonry();
+    });
 });
 
 jQuery(document).ready(function($){
