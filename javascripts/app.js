@@ -802,76 +802,6 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 
-var options = {
-  valueNames: [ 'project', 'subject', 'language' ]
-};
-
-var userList = new List('users', options);
-
-jQuery( document ).ready(function() {
-  jQuery(".python-item").hover(function() {
-      jQuery(this).addClass("list-hover-python");
-  }, function() {
-      jQuery(this).removeClass("list-hover-python");
-  });
-  jQuery(".scratch-item").hover(function() {
-      jQuery(this).addClass("list-hover-scratch");
-  }, function() {
-      jQuery(this).removeClass("list-hover-scratch");
-  });
-});
-
-
-jQuery(window).load(function(){
-  jQuery(window).resize(function(){ jQuery('.grid').masonry('reloadItems').masonry(); });
-  jQuery('.grid').masonry({  
-    itemSelector: '.grid-item',
-    isFitWidth: true,
-    percentPosition: true,
-    columnWidth: '.grid-sizer'
-    }).imagesLoaded(function() {
-      jQuery('.grid').masonry('reloadItems').masonry();
-    });
-});
-
-jQuery(document).ready(function($){
-
-  var $ctx = this.$ctx;
-
-  $('.snapshot-nav h3', $ctx).hover(function() {
-
-    var cat = $(this).attr('data-cat');
-
-    var gallery = $('.snapshot-nav').closest('.snapshots-about-me').find('ul.snapshots-images');
-
-    if (cat === 'all') {
-      $('li', gallery).removeClass('hidden');
-      $('li', gallery).addClass('visible');
-    } else {
-      $('li', gallery).each(function() {
-        if ($(this).hasClass(cat)) {
-          $(this).removeClass('hidden');
-          $(this).addClass('visible');
-        } else {
-          $(this).addClass('hidden');
-          $(this).removeClass('visible');
-        }
-      });
-    }
-
-    return false;
-
-  }, function(){
-    var gallery = $('.snapshot-nav').closest('.snapshots-about-me').find('ul.snapshots-images');
-    
-    $('li', gallery).removeClass('hidden');
-    $('li', gallery).addClass('visible');
-
-  }
-  );
-});
-
-
 jQuery(document).ready(function($){
 
   var  mn = $(".secondary-nav");
@@ -937,7 +867,6 @@ jQuery(document).ready(function($){
         }
     });
 });
-
 
 jQuery(document).ready(function($){
 
