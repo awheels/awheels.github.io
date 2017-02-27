@@ -959,6 +959,6 @@ jQuery(document).ready(function($){
         $(this).addClass(colorArray[count % colorArray.length]);
         $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
       });
-    }, 4000);
+    }, 2000);
   });
 });
