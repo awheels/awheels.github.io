@@ -3756,9 +3756,10 @@ input:focus {
     border-radius: 0 0 2px 2px;
     min-height: 140px;
 }
-.card .card-content p {
+.card .card-content h3 {
     margin: 0;
     color: inherit;
+    line-height: 22px;
 }
 .card .card-action {
     position: relative;
