@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Feb 2017 06:59:42 +0800</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2017 06:59:42 +0800</lastBuildDate>
+    <pubDate>Tue, 28 Feb 2017 07:12:06 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Feb 2017 07:12:06 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -16,9 +16,7 @@
 
 &lt;p&gt;Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the &lt;a href=&quot;https://phaser.io/&quot; target=&quot;_blank&quot;&gt;Phaser framework&lt;/a&gt;. You can check out his book &lt;a href=&quot;http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. All art work was created myself using &lt;a href=&quot;https://www.fiftythree.com/&quot; target=&quot;_blank&quot;&gt;Paper 53&lt;/a&gt;, a great drawing/doodling/note-taking/anything you can dream of app.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;phaser-container&quot;&gt;
-	&lt;iframe src=&quot;/google_game/index.html&quot; name=&quot;whylearncoding?&quot; scrolling=&quot;no&quot;&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt; &amp;gt;&lt;/iframe&gt;
-&lt;/div&gt;
+&lt;iframe src=&quot;/google_game/index.html&quot; name=&quot;whylearncoding?&quot; width=&quot;800&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt; &amp;gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 12 Feb 2017 16:14:54 +0800</pubDate>
         <link>/coding/education/2017/02/12/my-why-learn-coding-game.html</link>

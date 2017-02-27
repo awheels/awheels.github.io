@@ -20,6 +20,4 @@ I'm going to be applying for the upcoming Google Innovators Program. My proposed
 
 Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the [Phaser framework](https://phaser.io/){:target="_blank"}. You can check out his book [here](http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/){:target="_blank"}. All art work was created myself using [Paper 53](https://www.fiftythree.com/){:target="_blank"}, a great drawing/doodling/note-taking/anything you can dream of app.<br><br>
 
-<div class="phaser-container">
-	<iframe src="/google_game/index.html" name="whylearncoding?" scrolling="no"><p>Your browser does not support iframes.</p> ></iframe>
-</div>
+<iframe src="/google_game/index.html" name="whylearncoding?" width="800" height="600" frameborder="0" scrolling="no"><p>Your browser does not support iframes.</p> ></iframe>
