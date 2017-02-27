@@ -9,7 +9,7 @@ tags:
   - mathematics
   - coding
   - teaching
-author: admin
+author: Drew Wheeler
 images:
   - images/20150914_img1.jpg
 excerpt:

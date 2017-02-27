@@ -13,7 +13,11 @@ author: Drew Wheeler
 images:
   - images/WLC.png
 excerpt:
-  I have loved photography for a long time and the DSLR was my tried and true camera. But the Fuji x100t is starting to pull me away from the world of the DSLR and I credit it with reigniting my passion. In this post I am going to give a little run down of why I love the x100t. 
+  I'm going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education. To help me show others the positives of learning to code I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called "Why learn coding?".
 ---
+
+I'm going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education, so I thought that it made sense to actually code something for my application. To help me show others the positives of learning to code, I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called "Why learn coding?".<br><br>
+
+Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the [Phaser framework](https://phaser.io/){:target="_blank"}. You can check out his book [here](http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/){:target="_blank"}. All art work was created myself using [Paper 53](https://www.fiftythree.com/){:target="_blank"}, a great drawing/doodling/note-taking/anything you can dream of app.<br><br>
 
 <iframe src="/google_game/index.html" name="whylearncoding?" width="800" height="600" frameborder="0" scrolling="no"><p>Your browser does not support iframes.</p> ></iframe>

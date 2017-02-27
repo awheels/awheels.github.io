@@ -11,7 +11,7 @@ author: Drew Wheeler
 images:
   - images/googlesheet-unit-plan.jpg
 excerpt:
-  Over the past several weeks I have been using a combination of Google Sheets an Trello for planning and organizing my teaching. It has been amazing! It has reduced my level of stress immensely!
+  Over the past several weeks I have been using a combination of Google Sheets and Trello for planning and organizing my teaching. It has been amazing! It has reduced my level of stress immensely!
 ---
 
 Over the past several weeks I have been using a combination of Google Sheets and Trello for planning and organizing my teaching. It has been amazing! This is one of the first times that I have felt like I have a clear picture of where I am at on the giant list of things that I need to get done. So here is a breakdown of my three systems and how I've been using them. I've included links to the templates, so feel free to make copies for yourself.<br><br>

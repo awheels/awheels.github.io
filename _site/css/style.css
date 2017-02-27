@@ -3595,7 +3595,7 @@ input:focus {
 }
 .grid-sizer,
 .grid-item {
-  width: 25%;
+  width: 20%;
 }
 .grid {
   margin: 0 auto;
@@ -3708,4 +3708,24 @@ input:focus {
   color: #fff;
 }
 
+.language-subtext {
+  display: block;
+  font-size: .9em;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+@media only screen and (max-width: 40em) {
+  .button-group.even-3 li{
+    width:100%;
+  }
+}
+.snapshot-nav h3:hover {
+  background: #FAB438 !important;
+}
 
+@media only screen and (max-width: 60em) {
+  .resume-item .resume-span-right {
+    float:none !important;
+    display:block;
+  }
+}

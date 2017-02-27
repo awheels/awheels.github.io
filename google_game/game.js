@@ -96,7 +96,7 @@ window.onload = function() {
             game.scale.pageAlignHorizontally = true;
             game.scale.pageAlignVertically = true;
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-            game.stage.backgroundColor = "E3E3E3";
+            game.stage.backgroundColor = "#E3E3E3";
             game.add.sprite(50,50,"maintitle");
             var soundButton = game.add.button(game.width / 2 - 100, game.height / 2 + 100, "soundicons", this.startGame, this);
        		soundButton.anchor.set(0.5);
