@@ -61,21 +61,21 @@ window.onload = function() {
             }
         },
         removeMessage: function(target){
-           target.destroy(); 
+            target.destroy();
+            if(num_matches == 8){
+                game.state.start("GameOver");
+            }
         },        
         checkTiles: function(){
             if(selectedArray[0].value == selectedArray[1].value){
                 if(playSound){
                     this.soundArray[1].play();
                 }
+                num_matches = num_matches + 1;
                 var message = game.add.button(100,100,"messages", this.removeMessage, this);
                 message.frame = selectedArray[0].value;
                 selectedArray[0].destroy();
                 selectedArray[1].destroy();
-                num_matches = num_matches + 1;
-                if(num_matches == 8){
-                    game.state.start("GameOver");
-                }
             }else{
                 if(playSound){
                     this.soundArray[2].play();
@@ -86,39 +86,38 @@ window.onload = function() {
             selectedArray.length = 0;
         }
     }
-	var titleScreen = function(game){}
-	titleScreen.prototype = {
-		preload: function(){
-			game.load.spritesheet("soundicons", "soundicons.png", 80, 80);
+    var titleScreen = function(game){}
+    titleScreen.prototype = {
+        preload: function(){
+            game.load.spritesheet("soundicons", "soundicons.png", 80, 80);
             game.load.image("maintitle", "MainTitle.png");
-		},
-		create: function(){
+        },
+        create: function(){
             game.scale.pageAlignHorizontally = true;
             game.scale.pageAlignVertically = true;
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
             game.stage.backgroundColor = "#E3E3E3";
             game.add.sprite(50,50,"maintitle");
             var soundButton = game.add.button(game.width / 2 - 100, game.height / 2 + 100, "soundicons", this.startGame, this);
-       		soundButton.anchor.set(0.5);
-       		soundButton = game.add.button(game.width / 2 + 100, game.height / 2 + 100, "soundicons", this.startGame, this);
-        		soundButton.frame = 1;
-        		soundButton.anchor.set(0.5);
-     	},
-     	startGame: function(target){
-			if(target.frame == 0){
-				playSound = true;
-			}
-			else{
-				playSound = false;
-			}
-			game.state.start("PlayGame");
-		}
-	}
+            soundButton.anchor.set(0.5);
+            soundButton = game.add.button(game.width / 2 + 100, game.height / 2 + 100, "soundicons", this.startGame, this);
+                soundButton.frame = 1;
+                soundButton.anchor.set(0.5);
+        },
+        startGame: function(target){
+            if(target.frame == 0){
+                playSound = true;
+            }
+            else{
+                playSound = false;
+            }
+            game.state.start("PlayGame");
+        }
+    }
     var gameOver = function(game){}
     gameOver.prototype = {
         create: function(){
             var style = {
-                
                 font: "32px Monospace",
                 fill: "#000000",
                 align: "center"
@@ -134,8 +133,8 @@ window.onload = function() {
             game.state.start("TitleScreen");
         }
     }
-	game.state.add("TitleScreen", titleScreen);
-	game.state.add("PlayGame", playGame);
+    game.state.add("TitleScreen", titleScreen);
+    game.state.add("PlayGame", playGame);
     game.state.add("GameOver", gameOver)
-	game.state.start("TitleScreen");
+    game.state.start("TitleScreen");
 }
