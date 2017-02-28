@@ -6,13 +6,13 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Feb 2017 16:43:19 +0800</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2017 16:43:19 +0800</lastBuildDate>
+    <pubDate>Tue, 28 Feb 2017 17:15:20 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Feb 2017 17:15:20 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>My &quot;Why Learn Coding?&quot; Game</title>
-        <description>&lt;p&gt;I’m going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education, so I thought that it made sense to actually code something for my application. To help me show others the positives of learning to code, I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called “Why learn coding?”.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;I’m going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education, so I thought that it made sense to actually code something for my application. To help me show others the positives of learning to code, I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called “Why learn coding?”. Although, it does not keep score or time so I guess it is more of an activity than a game.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the &lt;a href=&quot;https://phaser.io/&quot; target=&quot;_blank&quot;&gt;Phaser framework&lt;/a&gt;. You can check out his book &lt;a href=&quot;http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. All art work was created myself using &lt;a href=&quot;https://www.fiftythree.com/&quot; target=&quot;_blank&quot;&gt;Paper 53&lt;/a&gt;, a great drawing/doodling/note-taking/anything you can dream of app.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 

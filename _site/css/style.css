@@ -3652,10 +3652,9 @@ input:focus {
 }
 .image-header .header-text-container {
   position: absolute;
-  top:40%;
+  top:150px;
   font-size: 26px;
   margin: 0 auto; 
-  width:90%; 
   text-transform: uppercase; 
   color: white;
 }
