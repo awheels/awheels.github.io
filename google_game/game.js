@@ -86,34 +86,34 @@ window.onload = function() {
             selectedArray.length = 0;
         }
     }
-    var titleScreen = function(game){}
-    titleScreen.prototype = {
-        preload: function(){
-            game.load.spritesheet("soundicons", "soundicons.png", 80, 80);
+	var titleScreen = function(game){}
+	titleScreen.prototype = {
+		preload: function(){
+			game.load.spritesheet("soundicons", "soundicons-v2.png", 80, 100);
             game.load.image("maintitle", "MainTitle.png");
-        },
-        create: function(){
+		},
+		create: function(){
             game.scale.pageAlignHorizontally = true;
             game.scale.pageAlignVertically = true;
             game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
             game.stage.backgroundColor = "#E3E3E3";
             game.add.sprite(50,50,"maintitle");
             var soundButton = game.add.button(game.width / 2 - 100, game.height / 2 + 100, "soundicons", this.startGame, this);
-            soundButton.anchor.set(0.5);
-            soundButton = game.add.button(game.width / 2 + 100, game.height / 2 + 100, "soundicons", this.startGame, this);
-                soundButton.frame = 1;
-                soundButton.anchor.set(0.5);
-        },
-        startGame: function(target){
-            if(target.frame == 0){
-                playSound = true;
-            }
-            else{
-                playSound = false;
-            }
-            game.state.start("PlayGame");
-        }
-    }
+       		soundButton.anchor.set(0.5);
+       		soundButton = game.add.button(game.width / 2 + 100, game.height / 2 + 100, "soundicons", this.startGame, this);
+        		soundButton.frame = 1;
+        		soundButton.anchor.set(0.5);
+     	},
+     	startGame: function(target){
+			if(target.frame == 0){
+				playSound = true;
+			}
+			else{
+				playSound = false;
+			}
+			game.state.start("PlayGame");
+		}
+	}
     var gameOver = function(game){}
     gameOver.prototype = {
         create: function(){
@@ -133,8 +133,8 @@ window.onload = function() {
             game.state.start("TitleScreen");
         }
     }
-    game.state.add("TitleScreen", titleScreen);
-    game.state.add("PlayGame", playGame);
+	game.state.add("TitleScreen", titleScreen);
+	game.state.add("PlayGame", playGame);
     game.state.add("GameOver", gameOver)
-    game.state.start("TitleScreen");
+	game.state.start("TitleScreen");
 }
