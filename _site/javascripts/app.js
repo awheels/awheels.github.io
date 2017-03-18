@@ -869,7 +869,6 @@ jQuery(document).ready(function($){
 });
 
 jQuery(document).ready(function($){
-
   $(function () {
     count = 0;
     wordsArray = ["an educator.", "a developer.", "a creator.", "a learner."];
