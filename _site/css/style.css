@@ -3771,3 +3771,38 @@ input:focus {
   margin-bottom: 20px;
   border-radius: 2px 2px 2px 2px;
 }
+
+.full #myCanvas.square {
+  width:640px;
+  max-width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+.full #myCanvas.non-square {
+  max-width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+@media screen and (min-width: 910px) {
+  .generative-art-container {
+    padding-left:130px;
+    padding-right:130px;
+  }
+  .full #myCanvas.non-square {
+    min-width:640px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .full #myCanvas {
+    min-width: 100%;
+  }
+  .generative-art-description {
+    margin-left:20px;
+  }
+}
+

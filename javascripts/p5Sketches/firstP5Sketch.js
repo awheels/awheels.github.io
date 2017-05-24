@@ -1,7 +1,7 @@
 function setup() {
   var canvasDiv = document.getElementById("myCanvas");
   var divWidth = document.getElementById("myCanvas").clientWidth;
-  var sketchCanvas = createCanvas(divWidth,450);
+  var sketchCanvas = createCanvas(divWidth,divWidth*2/3);
   sketchCanvas.parent("myCanvas");
 }
 
