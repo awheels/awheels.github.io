@@ -2,10 +2,32 @@
 layout: default
 section_id: portfolio
 items:
-  - image: images/processing_sketches/processing_sketch_001.PNG
-  - image: images/processing_sketches/processing_sketch_002.PNG
-  - image: images/processing_sketches/processing_sketch_003.PNG
-  - image: images/processing_sketches/processing_sketch_004.PNG
+    - title: May 2017
+      images:
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
+        - image: images/processing_sketches/processing_sketch_001.PNG
+        - image: images/processing_sketches/processing_sketch_002.PNG
+        - image: images/processing_sketches/processing_sketch_003.PNG
+        - image: images/processing_sketches/processing_sketch_004.PNG
 
 ---
 
@@ -13,22 +35,24 @@ items:
     <div class="medium-12 columns">
         <div class="title-group" style="margin-top:40px;">
             <h1 class="special">Generative Art</h1>
-            <p class="lead">I'm interested in the many...</p>
+            <p class="lead">Collection of projects.</p>
             <br>
-            <p class="lead">I have decided to try...</p>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <ul class="th-grid" style="display: flex; flex-wrap: wrap;">
-        {% for x in page.items %}
-        <li style="float: left; -webkit-box-flex: 1; -ms-flex: auto; flex: auto; margin: .25em; width: 100px; max-width: 150px; list-style: none;">
-            <a href="{{site.url}}/projects/generative_art/test.html" title="test" style="display: block;">
-                <noscript><img src="{{site.url}}/{{x.image}}"></noscript>
-                <img class="fade-in lazyloaded" src="{{site.url}}/{{x.image}}" data-src="{{site.url}}/{{x.image}}" alt="" data-pin-nopin="true" style="width: 100%; height: auto; border-radius: .25em;">
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+    {% for x in page.items %}
+        <h3>{{x.title}}</h3>
+        <ul class="th-grid" style="display: flex; flex-wrap: wrap;">
+            {% for x in x.images %}
+            <li style="float: left; -webkit-box-flex: 1; -ms-flex: auto; flex: auto; margin: .25em; max-width: 150px; list-style: none;">
+                <a href="{{site.url}}/projects/generative_art/test.html" title="test" style="display: block;">
+                    <noscript><img src="{{site.url}}/{{x.image}}"></noscript>
+                    <img class="fade-in lazyloaded" src="{{site.url}}/{{x.image}}" data-src="{{site.url}}/{{x.image}}" alt="" data-pin-nopin="true" style="width: 100%; height: auto; border-radius: .25em;">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
 </div>
