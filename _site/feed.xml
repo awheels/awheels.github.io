@@ -6,9 +6,32 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Sep 2017 19:30:41 +0800</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2017 19:30:41 +0800</lastBuildDate>
+    <pubDate>Tue, 19 Sep 2017 21:41:43 +0800</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2017 21:41:43 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>When a math teacher joins an art challenge</title>
+        <description>&lt;p&gt;I’m going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education, so I thought that it made sense to actually code something for my application. To help me show others the positives of learning to code, I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called “Why learn coding?”. Although, it does not keep score or time so I guess it is more of an activity than a game.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the &lt;a href=&quot;https://phaser.io/&quot; target=&quot;_blank&quot;&gt;Phaser framework&lt;/a&gt;. You can check out his book &lt;a href=&quot;http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. All art work was created myself using &lt;a href=&quot;https://www.fiftythree.com/&quot; target=&quot;_blank&quot;&gt;Paper 53&lt;/a&gt;, a great drawing/doodling/note-taking/anything you can dream of app.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;object type=&quot;text/html&quot; data=&quot;/google_game/index.html&quot; width=&quot;100%&quot; height=&quot;600px&quot;&gt;&lt;/object&gt;
+</description>
+        <pubDate>Sat, 14 Oct 2017 18:24:54 +0800</pubDate>
+        <link>/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</link>
+        <guid isPermaLink="true">/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</guid>
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+      </item>
     
       <item>
         <title>My &quot;Why Learn Coding?&quot; Game</title>
@@ -36,7 +59,7 @@
       </item>
     
       <item>
-        <title>Creating My Class Website - Why? and How?</title>
+        <title>Creating My Class Website - Why and How?</title>
         <description>&lt;h5 id=&quot;update-september-2017---my-school-has-moved-to-microsoft-education-365-so-there-is-no-longer-any-need-for-me-to-update-and-maintain-my-site-the-site-was-shortlived-but-it-was-a-great-learning-experience&quot;&gt;Update September 2017 - My school has moved to Microsoft Education 365 so there is no longer any need for me to update and maintain my site. The site was shortlived, but it was a great learning experience.&lt;/h5&gt;
 
 &lt;p&gt;I’ve spent the last few weekends putting some extra time into building a website for the math courses that I teach. While doing this there have been several moments where I think to myself, “Is what I am doing ridiculous? There are so many tools and applications out there that can probably do what I’m trying to do much better.” I actually asked my partner on multiple occasions if I was crazy, to which she clearly replied “Yes, but not because of this.” So I thought I would take a little time to reflect on my desire and reasons for building my course site and what I hope it ends up accomplishing.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
