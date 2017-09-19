@@ -15,6 +15,8 @@ excerpt:
   A little walkthrough of my reasons and process for creating a website for my mathematics courses.
 ---
 
+##### Update September 2017 - My school has moved to Microsoft Education 365 so there is no longer any need for me to update and maintain my site. The site was shortlived, but it was a great learning experience.
+
 I’ve spent the last few weekends putting some extra time into building a website for the math courses that I teach. While doing this there have been several moments where I think to myself, “Is what I am doing ridiculous? There are so many tools and applications out there that can probably do what I’m trying to do much better.” I actually asked my partner on multiple occasions if I was crazy, to which she clearly replied “Yes, but not because of this.” So I thought I would take a little time to reflect on my desire and reasons for building my course site and what I hope it ends up accomplishing.<br><br>
 
 ##### Feels Good to Make Stuff
