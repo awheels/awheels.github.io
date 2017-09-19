@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Creating My Class Website - Why? and How?
+title:  Creating My Class Website - Why and How?
 date:   2017-01-10 11:23:18
 categories:
   - coding
