@@ -3771,3 +3771,14 @@ input:focus {
   margin-bottom: 20px;
   border-radius: 2px 2px 2px 2px;
 }
+
+#myCanvas {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
