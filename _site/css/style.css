@@ -3772,7 +3772,14 @@ input:focus {
   border-radius: 2px 2px 2px 2px;
 }
 
-#myCanvas {
+@media screen and (max-width: 600px) {
+  .processingCanvas canvas {
+    width:100% !important; 
+    height: auto !important;
+  }
+}
+
+.processingCanvas {
   margin: 0;
   display: flex;
 
