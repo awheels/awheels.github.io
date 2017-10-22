@@ -17,7 +17,7 @@ excerpt:
 
 I've been keen to experiment more with Processing, so when I heard about an art challenge being organized by the International Shenzhen Artist Forum (ISZAF) I was eager to participate. I do not identify as an expert coder nor an artist, but they are both areas that I am looking to grow in and further explore.<br><br>
 
-In Phase 1 of this challenge we were provided with an initial image that served as inspiration for our creation of 3 pieces of work. The initial image was of cracked/broken egg shells. Below you will find the 3 pieces that I created using Processing (more specifically [P5.js](https://p5js.org){:target="_blank"}), which is piece of software and programming language that is great for both learning to code and creating visual art. You can read more and check it out [here](https://processing.org){:target="_blank"}. You can also look at my code [here](https://github.com/awheels/ISZAF-Art-Challenge){:target="_blank"}(just be kind...I'm mostly self taught and still learning).<br><br>
+In Phase 1 of this challenge we were provided with an initial image that served as inspiration for our creation of 3 pieces of work. The initial image was of cracked/broken egg shells. Below you will find the 3 pieces that I created using Processing (more specifically [P5.js](https://p5js.org){:target="_blank"}), which is piece of software and programming language that is great for both learning to code and creating visual art. You can read more and check it out [here](https://processing.org){:target="_blank"}. You can also look at my code [here](https://github.com/awheels/ISZAF-Art-Challenge){:target="_blank"} (just be kind...I'm mostly self taught and still learning).<br><br>
 
 #### Piece #1 - Backyard Chickens
 
