@@ -1,0 +1,48 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/art_challenge_800x500.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>ISZAF Art Challenge</h3>
+      <p>
+        I've been keen to experiment more with Processing, so when I heard about an art challenge being organized by the International Shenzhen Artist Forum (ISZAF), I was eager to participate. I do not identify as an expert coder nor an artist, but they are both areas that I was looking to grow in and further explore. The challenge consists of three phases. My works for each of these phases, along with links to my code, can be found on the blog posts below.
+      </p>
+      <div class='spacing'></div>
+      <a class='button small' href='/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html' style="display:block;">Phase One</a>
+      <a class='button small disabled' href='#' style="display:block;">Phase Two (Coming Nov 12th)</a>
+      <a class='button small disabled' href='#' style="display:block;">Phase Three (Coming Dec 2nd)</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <strong>Date:</strong>
+          October 2017
+        </li>
+      </ul>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='../projects.html' title='back to work list'>
+            Back to Portfolio
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

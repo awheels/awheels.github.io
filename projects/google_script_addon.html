@@ -1,0 +1,46 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/googlesheet-weekly-plan_800x500.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Google Sheets Add-On for Teacher Planning</h3>
+      <p>
+        I've been using Google Sheets for almost all of my planning for over a year now. However, I was getting tired of copying and pasting templates and updating dates based on my schools 8 day cycle. What started as a quick Google Script hack to simplify my workflow has now grown into a slightly bigger project. I'm working on creating a Google Script Add-On for Google Sheets that will allow anyone to generate a planning timetable for any number of periods and various types of day cycles. This is nearly complete, but I am now hoping to connect it to Google Calendar so that you can sync your planning doc with your calendar. Feel free to checkout the Github Repository for the script below!
+      </p>
+      <div class='spacing'></div>
+      <a class='button small' href='https://github.com/awheels/Timetable-Generator' target="_blank">Github Repository</a>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <strong>Date:</strong>
+          September 2017
+        </li>
+      </ul>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='../projects.html' title='back to work list'>
+            Back to Portfolio
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
