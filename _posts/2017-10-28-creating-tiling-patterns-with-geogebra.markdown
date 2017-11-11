@@ -21,9 +21,9 @@ My 6th graders have been learning about properties of polygons and this led into
 
 A few examples of the patterns created are below.<br><br>
 
-![unitplan](/images/TilingPattern_1.png)
-![unitplan](/images/TilingPattern_2.png)
-![unitplan](/images/TilingPattern_3.png)
+![geogebra_pattern](/images/TilingPattern_1.png)
+![geogebra_pattern](/images/TilingPattern_2.png)
+![geogebra_pattern](/images/TilingPattern_3.png)
 
 
 
