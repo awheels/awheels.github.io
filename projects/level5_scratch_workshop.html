@@ -1,0 +1,110 @@
+---
+layout: default
+section_id: portfolio
+items:
+  - title: Finding Your Way Around
+    topic: Day 1 - Session 1
+    data-link: findingway
+    google_link: https://docs.google.com/document/d/e/2PACX-1vQQBXbrKSnFzOQc5Y5g_1RPPNcQYnkshzLl9yc-RUPR71YZjUuVsU4jnmABR9eSA1SCQdOaf-FyBc3r/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=103BFBbQrGOguY9bd5ejZF3puZIDnHUIu24B87jvAyRg
+  - title: So Many Different Blocks!
+    topic: Day 1 - Session 2
+    data-link: differentblocks
+    google_link: https://docs.google.com/document/d/e/2PACX-1vRnfmLYC1Liay0Djeg7jdOVSI3OaOEI8haLwGHYTPMCXVvBMPNTLnGzmEqbttongi0iWvx5l97kkRue/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=1z0cSpUacNPsrRh9Bg9bPpxWmW0SBj-wiPw0F1WhJEAM
+  - title: Let's Get Moving (and Drawing)
+    topic: Day 1 - Session 3
+    data-link: getmoving
+    google_link: https://docs.google.com/document/d/e/2PACX-1vRn4lKY___aUfiLFh8NvUk88eEK_qy1nbQAxO0cIPDgQCXrgA46joTT4e6-eXsp_pUlhUvHh82er09v/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=1yjDPIcKohoOH32EFLZDLCYeBkdcTn_MCLH2OsRyN2g4
+  - title: Looks and Sounds
+    topic: Day 1 - Session 4
+    data-link: looksandsounds
+    google_link: https://docs.google.com/document/d/e/2PACX-1vTiF-cdZ14ndfb802WtK5K_zIxGky8ZzDswMaSdN8-CAbAupFFfVd3pKjzHmqAC529jbXsbV1OxfITE/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=1D40ZUMVNXNhrZ2DWiAOOI_fEaINUB0VBLu-DRlXk4-4
+  - title: Going Loopy
+    topic: Day 1 - Session 5
+    data-link: goingloopy
+    google_link: https://docs.google.com/document/d/e/2PACX-1vQ9P67JamO1JVPOnAjZ24MlwEJcZmPDnWe7fI3md_cgnmv2ujJNeOYsERuaje9RN9aLOI9CsMbCKdln/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=15EXkbdCwflJek7bXZwey-mn-VrDnQOLAxRfMWJ6EmIQ
+  - title: Broadcasting
+    topic: Day 1 - Session 6
+    data-link: broadcasting
+    google_link: https://docs.google.com/document/d/e/2PACX-1vQ9P67JamO1JVPOnAjZ24MlwEJcZmPDnWe7fI3md_cgnmv2ujJNeOYsERuaje9RN9aLOI9CsMbCKdln/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=1n49bFo-zDnOEBWFLEAFxQpMBGo8cWqsyZsGEcWsyFHI
+
+---
+
+
+<div class="row">
+  <div class="title-group" style="margin-top:40px;">
+      <h1 class="special">
+          <span style="margin-left:10px;">
+              Learn a Little Scratch @ Level 5
+          </span>
+      </h1>
+      <p class="lead" style="margin-bottom:20px; margin-left:10px;">
+          Workshop description...
+      </p>
+  </div>
+</div>
+
+<div class='full' style="padding: 40px 0 0;">
+    <div class="row">
+        <div id="ribbon"></div>
+        <div id="page">
+
+            <!-- Zozo Tabs Start-->
+            <div id="tabbed-nav2" class="z-tabs-loading">
+
+                <!-- Tab Navigation Menu -->
+                <ul>
+                    {% for x in page.items %}
+                    <li data-link="{{x.data-link}}"><a>{{x.title}}<span>{{x.topic}}</span></a></li>
+                    {% endfor %}
+                </ul>
+
+                <!-- Content container -->
+                <div>
+                    {% for x in page.items %}
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <h4>{{x.title}} ({{x.topic}})</h4>
+                            <a href="{{x.sharable_link}}" target="_blank"  class="button" style="background: #FE491A; border: #FE491A;">Google Doc Link</a>
+
+                            <iframe src="{{x.google_link}}" height="600" width="100%"></iframe>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <span class="z-spinner"></span>
+            </div>
+            <!-- Zozo Tabs End-->
+        </div>
+        <div class='two spacing'></div>
+    </div>
+</div>
+
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-turquoise flat",
+            spaced: true,
+            rounded: false,
+            deeplinking: true,
+            defaultTab: 'tempsimulation',
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
+        });
+    });
+</script>
