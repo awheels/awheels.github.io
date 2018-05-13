@@ -3755,6 +3755,9 @@ input:focus {
   border-radius: 0 0 2px 2px;
   min-height: 140px;
 }
+.connected-code-project .card .card-content {
+  min-height: 180px;
+}
 .card .card-content h3 {
   margin: 0;
   color: inherit;
