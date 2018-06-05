@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body>
+
+		{% include header.html %}
+		{% include title_curriculum_links.html %}
+
+		<div id='main' role='main'>
+			{{ content }}
+		</div>
+
+		{% include google_analytics.html %}
+		{% include footer.html %}
+
+	</body>
+
+</html>

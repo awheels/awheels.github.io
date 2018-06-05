@@ -1,0 +1,95 @@
+---
+layout: default
+section_id: projects
+works:
+  - image: images/galaprint-600x500-blur.jpg
+    title: School Fundraiser Project
+    link_to: projects/school_fundraiser.html
+    class: photography teaching
+    desc: Photography  
+  - image: images/googlesheet-weekly-plan-600x500.png
+    title: Google Sheet Add-On for Teacher Planning
+    link_to: projects/google_script_addon.html
+    class: coding teaching
+    desc: Coding &amp; Teaching
+  - image: images/art_challenge_600x500.jpg
+    title: Art Challenge
+    link_to: projects/art_challenge.html
+    class: coding
+    desc: Coding
+  - image: images/my365-600x500.png
+    title: My365 Project
+    link_to: projects/my365.html
+    class: coding photography
+    desc: Coding &amp; Photography
+  - image: images/curricular-links.png
+    title: Connected Coding Challenge
+    link_to: projects/connected_coding_challenge.html
+    class: teaching coding
+    desc: Teaching &amp; Coding
+  - image: images/learnalittlepython.jpg
+    title: Learn a Little Python
+    link_to: projects/learn-python/coding-curriculum.html
+    class: teaching coding
+    desc: Teaching &amp; Coding
+  - image: images/breakout-600x500.png
+    title: Breakout Video Game
+    link_to: projects/breakout.html
+    class: coding teaching
+    desc: Coding
+  - image: images/qr8r-gallery-600x500.png
+    title: Curator (QR8R)
+    link_to: projects/qr8r.html
+    class: coding
+    desc: Coding
+  - image: images/Family-600x500.png
+    title: Family &amp; Wedding Photography
+    link_to: projects/fam_wed_photography.html
+    class: photography
+    desc: Photography
+  - image: images/remarks-article-600x500.png
+    title: Remarks
+    link_to: projects/remarks.html
+    class: coding
+    desc: Coding
+
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='photography' href='#'>Photography</a>
+          </li>
+          <li>
+            <a data-cat='teaching' href='#'>Teaching</a>
+          </li>
+          <li>
+            <a data-cat='coding' href='#'>Coding</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

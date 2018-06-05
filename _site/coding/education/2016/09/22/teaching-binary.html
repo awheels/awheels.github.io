@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Teaching Binary</title>
+  <meta name="description" content="Why teach kids about binary? Well, it not only adds great context for students who are starting to learn to program but it can also give them a stronger fund...">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fontello.css">
+  <link rel="stylesheet" href="/css/font-awesome.css">
+  <link rel="stylesheet" href="/css/zozo.tabs.flat.min.css">
+  <link rel="stylesheet" href="/css/zozo.tabs.min.css">
+
+  <script src="/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="/javascripts/json2.js" type="text/javascript"></script>
+  <script src="/javascripts/foundation.js" type="text/javascript"></script>
+  <script src="/javascripts/list.min.js" type="text/javascript"></script>
+  <script src="/javascripts/zozo.tabs.min.js" type="text/javascript"></script>
+  <script src="/javascripts/p5.min.js" type="text/javascript"></script>
+
+
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="/javascripts/slick.min.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://localhost:4000/coding/education/2016/09/22/teaching-binary.html">
+  <link rel="alternate" type="application/rss+xml" title="Drew Wheeler" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+	<body>
+
+		<a href="" id="top"></a>
+<div class='contain-to-grid shadowless sticky'>
+  <nav class='top-bar primary-nav-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://localhost:4000/index.html">
+            <img alt="" src="http://localhost:4000/images/logo.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/index.html">Home</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/projects.html">My Projects</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/blog/">Blog</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/contact.html">Contact</a>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+		<div id='main' role='main'>
+			<div class="full">
+  <div class="row">
+    <div class="large-9 columns">
+      <div class='mod modBlogPost big no_bg'>
+  <div class='images'>
+    
+      <div class='image'><img alt="" src="http://localhost:4000/images/20150914_img1.jpg" /></div>
+    
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>September 22, 2016</span>
+      /
+      <span>
+        by
+        <a href="">Drew Wheeler</a>
+      </span>
+      /
+      <span>
+        In
+        
+          <a href="#">coding</a>
+          
+              ,
+          
+        
+          <a href="#">education</a>
+          
+        
+      </span>
+<!--       /
+      <span>
+        <a href="#">4 commetns</a>
+      </span> -->
+    </p>
+    <h3><a href="/coding/education/2016/09/22/teaching-binary.html">Teaching Binary</a></h3>
+    <p>It is my feeling that many students are lacking in their fundamental number sense. To improve this it is important to show students the inner workings of the concepts they are learning. Ask a student to count to the number of students in their class and they will likely do so happily and confidently. Now tell them that they did a great job counting using the base 10 (or decimal) system, but how about they try counting using base 2 (or binary) system. They would likely give you a strange and puzzled look, and rightfully so. Why bother teaching them another system, as it’s not like they are going to use binary in their day to day life? Well, I believe that it is incredibly valuable to realize that the number system that we use in our day to day life is just one of many. Too much of math is thought to be some sort of magical system that we just take for granted. Also, understanding other systems will improve and help to add context to the base 10 system, thereby improving their day to day number sense.<br /><br /></p>
+
+<h5 id="base-10-system-decimal">Base 10 System (Decimal)</h5>
+
+<p>Depending on the age of your students you might get some ‘I know this’ stares when you start talking about the decimal system. But again, I think we are so used to this system that we take some things for granted. I like to ask the students questions like “Why do you think we call it the decimal system?” and “Why is it also referred to base 10, specifically why 10?”. If they give you some blank stares I generally follow up with “What is a decade? How about a decathalon?” and this usually leads to a “Hey it is something to do with 10!”. Great, but why 10? Well how many digits do we have in our counting system? Again, this might seem obvious but many students will count from 1-9 and then continue on to 10, 11, 12 and on. This is where I focus on the term ‘digit’. And within a few minutes, we have identified that it is base 10 because there are 10 digits. We then continue on from here, possibly using a table similar to the one shown below, and start to apply the decimal system.<br /><br /><img src="/images/20150914_img3.jpg" alt="baseten" /><br /><br /></p>
+
+<h5 id="base-2-system-binary">Base 2 System (Binary)</h5>
+
+<p>This is where the foundation set by the review of the decimal system should pay off. Questions such as, “Why do they call it the binary system?” and “Why base 2?” should give some relatively quick answers. A bicycle has two wheels and we are called bipeds because we have two legs, so good chance that the number 2 has something to do with why it is called binary. So the magic number was 10 for the decimal system and it was because there was 10 digits, therefore it would make sense if the binary system had two digits. Except, we don’t call them digits, that is only for the decimal system. With the binary system we call them bits, so the binary system has 2 bits in the exact same way as the decimal system has 10 digits. Now as you continue to build up and connect the students understanding of the decimal system to the new (but similar) binary system, you should be able to construct a table similar to the one below. With this table, students should be able to relatively easily convert decimal values into binary ones. <br /><br /><img src="/images/20150914_img2.png" alt="basetwo" /><br /><br /></p>
+
+<h5 id="so-computers-use-binary-prove-it">So computer’s use binary? Prove it!</h5>
+
+<p>Ok, so the kids know about binary now…big deal. And at this point I would agree because it is with context that things become interesting. Talking about how computers only understand binary, so all your of programs that you write are converted into binary using a compiler is pretty cool. But again, it adds very little context and they are just left with accepting it is a fact that is being told to them. So what does a teacher do when presented with the difficult teaching situation? <a href="http://www.smh.com.au/entertainment/music/psys-gangnam-style-breaks-the-internet-20141204-11zusj.html" target="_blank">Resort to music videos on YouTube!</a> Everyone knows Gangnam Style and some of your students might also be aware of the fact that it was responsible for breaking YouTube. But now they actually have the knowledge and understanding to grasp exactly how that happened. It is also a great piece of evidence to show that computer use binary, because if YouTube uses it then it must be true.</p>
+
+  </div>
+</div>
+<div class='two spacing'></div>
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//awheelerblog.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+    </div>
+    <div class="large-3 columns" id="sidebar">
+      
+<div class='links'>
+  <h3>Categories</h3>
+  
+      <a href="/category/photography.html" style="text-decoration: none;">Photography</a><br />
+  
+      <a href="/category/coding.html" style="text-decoration: none;">Coding</a><br />
+  
+      <a href="/category/education.html" style="text-decoration: none;">Education</a><br />
+  
+      <a href="/category/art.html" style="text-decoration: none;">Art</a><br />
+  
+  <p />
+</div>
+<div class='links'>
+  <h3>Tags</h3>
+  <ul>
+  
+      <a href="/tag/fuji.html">fuji</a>
+      <br />
+  
+      <a href="/tag/mathematics.html">mathematics</a>
+      <br />
+  
+      <a href="/tag/coding.html">coding</a>
+      <br />
+  
+      <a href="/tag/teaching.html">teaching</a>
+      <br />
+  
+      <a href="/tag/python.html">python</a>
+      <br />
+  
+      <a href="/tag/workshops.html">workshops</a>
+      <br />
+  
+      <a href="/tag/learning coding.html">learning coding</a>
+      <br />
+  
+      <a href="/tag/google.html">google</a>
+      <br />
+  
+      <a href="/tag/education.html">education</a>
+      <br />
+  
+      <a href="/tag/games.html">games</a>
+      <br />
+  
+      <a href="/tag/art.html">art</a>
+      <br />
+  
+  </ul>
+</div>
+<div class='links'>
+  <h3>Recent Posts</h3>
+  <ul>
+    
+      
+      <li><a href="/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html">A math teacher joins an art challenge - iszaf challenge phase 2</a></li>
+    
+      
+      <li><a href="/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html">Creating tessellations with geogebra</a></li>
+    
+      
+      <li><a href="/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html">A math teacher joins an art challenge - iszaf challenge phase 1</a></li>
+    
+      
+      <li><a href="/coding/education/2017/02/12/my-why-learn-coding-game.html">My "why learn coding?" game</a></li>
+    
+      
+      <li><a href="/coding/education/2017/01/10/creating-my-class-website.html">Creating my class website - why and how?</a></li>
+    
+      
+      <li><a href="/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html">Organizing my teaching with google sheets and trello</a></li>
+    
+      
+        
+  </ul>
+</div>
+
+<div class='four spacing'></div>
+
+    </div>
+  </div>
+</div>
+
+		</div>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69350516-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		<div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-3 medium-3 columns'>
+      <h1>
+        <a href='index.html'>
+          <img alt="" src="http://localhost:4000/images/logo-bw.png" />
+        </a>
+      </h1>
+      <p>2015 Drew Wheeler</p>
+      <div class='spacing'></div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Some pages</h4>
+        <ul>
+          <li><a href="http://awheeler.me/index.html">Home</a></li>
+          <li><a href="http://awheeler.me/projects.html">My Projects</a></li>
+          <li><a href="http://awheeler.me/blog/">My Blog</a></li>
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Recent posts</h4>
+        <ul>
+          
+            <li><a href="/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html">A math teacher joins an art challenge - ISZAF Challenge Phase 2</a></li>
+          
+            <li><a href="/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html">Creating Tessellations with GeoGebra</a></li>
+          
+            <li><a href="/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html">A math teacher joins an art challenge - ISZAF Challenge Phase 1</a></li>
+          
+            <li><a href="/coding/education/2017/02/12/my-why-learn-coding-game.html">My "Why Learn Coding?" Game</a></li>
+          
+            <li><a href="/coding/education/2017/01/10/creating-my-class-website.html">Creating My Class Website - Why and How?</a></li>
+          
+            <li><a href="/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html">Organizing my Teaching with Google Sheets and Trello</a></li>
+          
+            <li><a href="/education/coding/2016/11/02/python-across-the-subjects-workshop.html">Python Across the Subjects Workshop</a></li>
+          
+            <li><a href="/coding/education/2016/09/22/teaching-binary.html">Teaching Binary</a></li>
+          
+            <li><a href="/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html">My love affair with the fuji x100t</a></li>
+          
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <h4>Contact Me</h4>
+      <ul>
+        <li></li>
+        <li>Email: wheeler02@gmail.com</li>
+        <li>Current Location: China</li>
+        <li>Home Base: Canada</li>
+      </ul>
+      <div class='spacing'></div>
+      <ul class='socials'>
+        <li>
+          <a href='https://instagram.com/and_wheeler/' target="_blank">
+            <i class='fa fa-instagram'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://twitter.com/drew_wheels' target="_blank">
+            <i class='fa fa-twitter'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://github.com/awheels'>
+            <i class='fa fa-github-square'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://ca.linkedin.com/in/andwheeler' target="_blank">
+            <i class='fa fa-linkedin'></i>
+          </a>
+        </li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/javascripts/app.js" type="text/javascript"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,74 @@
+---
+layout: curric_links
+section_id: portfolio
+items:
+  - title: Madlib
+    topic: Languages
+    data-link: madlib
+    google_link: https://docs.google.com/document/d/1fm6wFdml_O3Yi1bqJHyuQwiMmpHi6lCqrNh8g5rXXRw/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=1fm6wFdml_O3Yi1bqJHyuQwiMmpHi6lCqrNh8g5rXXRw
+  - title: Solar System Quiz
+    topic: Science
+    data-link: solarsystem
+    google_link: https://docs.google.com/document/d/14XCJ5j7Sa2DX-jvTW-rCQju7XUecZ8z3rbYrDdNjYe4/pub?embedded=true
+    sharable_link: https://drive.google.com/open?id=14XCJ5j7Sa2DX-jvTW-rCQju7XUecZ8z3rbYrDdNjYe4
+---
+
+<div class='full' style="padding: 40px 0 0;">
+    <div class="row">
+        <div id="ribbon"></div>
+        <div id="page">
+
+            <!-- Zozo Tabs Start-->
+            <div id="tabbed-nav2" class="z-tabs-loading">
+
+                <!-- Tab Navigation Menu -->
+                <ul>
+                    {% for x in page.items %}
+                    <li data-link="{{x.data-link}}"><a>{{x.title}}<span>{{x.topic}}</span></a></li>
+                    {% endfor %}
+                </ul>
+
+                <!-- Content container -->
+                <div>
+                    {% for x in page.items %}
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <h4 style="display:inline-block;">{{x.title}} ({{x.topic}})</h4>
+                            <a href="{{x.sharable_link}}" target="_blank"  class="button" style="background: #FE491A; border: #FE491A; float:right;">Google Doc Link</a>
+                            <iframe src="{{x.google_link}}" height="600" width="100%"></iframe>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <span class="z-spinner"></span>
+            </div>
+            <!-- Zozo Tabs End-->
+        </div>
+        <div class='two spacing'></div>
+    </div>
+</div>
+
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        /* jQuery activation and setting options for second tabs*/
+        $("#tabbed-nav2").zozoTabs({
+            position: "top-left",
+            orientation: "vertical",
+            multiline: true,
+            style: "contained",
+            theme: "flat-sun-flower flat",
+            spaced: true,
+            rounded: false,
+            deeplinking: true,
+            defaultTab: 'madlib',
+            animation: {
+                easing: "easeInOutExpo",
+                duration: 450,
+                effects: "slideH"
+            }
+        });
+    });
+</script>

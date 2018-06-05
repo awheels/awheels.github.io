@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Creating My Class Website - Why and How?</title>
+  <meta name="description" content="A little walkthrough of my reasons and process for creating a website for my mathematics courses.">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fontello.css">
+  <link rel="stylesheet" href="/css/font-awesome.css">
+  <link rel="stylesheet" href="/css/zozo.tabs.flat.min.css">
+  <link rel="stylesheet" href="/css/zozo.tabs.min.css">
+
+  <script src="/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="/javascripts/json2.js" type="text/javascript"></script>
+  <script src="/javascripts/foundation.js" type="text/javascript"></script>
+  <script src="/javascripts/list.min.js" type="text/javascript"></script>
+  <script src="/javascripts/zozo.tabs.min.js" type="text/javascript"></script>
+  <script src="/javascripts/p5.min.js" type="text/javascript"></script>
+
+
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="/javascripts/slick.min.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://localhost:4000/coding/education/2017/01/10/creating-my-class-website.html">
+  <link rel="alternate" type="application/rss+xml" title="Drew Wheeler" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+	<body>
+
+		<a href="" id="top"></a>
+<div class='contain-to-grid shadowless sticky'>
+  <nav class='top-bar primary-nav-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://localhost:4000/index.html">
+            <img alt="" src="http://localhost:4000/images/logo.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/index.html">Home</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/projects.html">My Projects</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/blog/">Blog</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/contact.html">Contact</a>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+		<div id='main' role='main'>
+			<div class="full">
+  <div class="row">
+    <div class="large-9 columns">
+      <div class='mod modBlogPost big no_bg'>
+  <div class='images'>
+    
+      <div class='image'><img alt="" src="http://localhost:4000/images/course-website-800x500.png" /></div>
+    
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>January 10, 2017</span>
+      /
+      <span>
+        by
+        <a href="">Drew Wheeler</a>
+      </span>
+      /
+      <span>
+        In
+        
+          <a href="#">coding</a>
+          
+              ,
+          
+        
+          <a href="#">education</a>
+          
+        
+      </span>
+<!--       /
+      <span>
+        <a href="#">4 commetns</a>
+      </span> -->
+    </p>
+    <h3><a href="/coding/education/2017/01/10/creating-my-class-website.html">Creating My Class Website - Why and How?</a></h3>
+    <h5 id="update-september-2017---my-school-has-moved-to-microsoft-education-365-so-there-is-no-longer-any-need-for-me-to-update-and-maintain-my-site-the-site-was-shortlived-but-it-was-a-great-learning-experience">Update September 2017 - My school has moved to Microsoft Education 365 so there is no longer any need for me to update and maintain my site. The site was shortlived, but it was a great learning experience.</h5>
+
+<p>I’ve spent the last few weekends putting some extra time into building a website for the math courses that I teach. While doing this there have been several moments where I think to myself, “Is what I am doing ridiculous? There are so many tools and applications out there that can probably do what I’m trying to do much better.” I actually asked my partner on multiple occasions if I was crazy, to which she clearly replied “Yes, but not because of this.” So I thought I would take a little time to reflect on my desire and reasons for building my course site and what I hope it ends up accomplishing.<br /><br /></p>
+
+<h5 id="feels-good-to-make-stuff">Feels Good to Make Stuff</h5>
+<p>I originally had this section at the end of my post because I thought that I should save the best reason for last. But then I realized that a good proportion of anyone who reads this post won’t actually read the entire thing (that is ok - I know what it is like!). So what is this amazingly important reason that I had to move to ensure that everyone actually reads? Well, the title already gave it away, it is the fact that it just feels darn good to make things. It really is hard to beat the feeling of dreaming something up and then taking the action of making it into reality. And this was no different, it just felt good to see a problem that I wanted to solve and create my own solution for it (even if my own solution isn’t as perfect as other ‘store bought’ options).<br /><br /></p>
+
+<p>Many of my students were surprised and a little impressed that I built the site myself. I got quite a few comments similar to “Wow, you actually made this?” and “But how long did it take you?”. This definitely helped to give me a little 5 minute ego boost but it also reinforced for me the idea that students should be given the opportunity to make more stuff. They were impressed with me making this site because they have no experience or context to understand how difficult it was. It really wasn’t all that hard, assuming that you have been given the opportunity to learn and experiment with some coding concepts and skills.<br /><br /></p>
+
+<h5 id="i-need-that-and-i-really-want-this--have-my-own-specific-requirements">I Need That and I Really Want This / Have My Own Specific Requirements</h5>
+<p>I have some specific requirements and ideas for what I want my site to be able to do and I have not yet to found a tool that checks off these boxes. Some of these specifications are listed below:</p>
+
+<ul>
+  <li>Easy for students to view the “big picture” for each unit. Being a mathematics teacher there is a fair bit of content that needs to be covered within each of my units. I’m really striving to approach my teaching from concept based approach. I feel that when students view each lesson as a stand alone they will tend to avoid looking at the big picture and connecting all the concepts together. This is why I wanted a site where students can see all the individual subtopics within a unit on one page and click between the individual content quickly and easily.</li>
+  <li>Transparency for students (and parents). Everyone should have access and know exactly where to find the lesson material for any given topic. If a student loses a handout or misses a class they will know where they can find the information that they need.</li>
+  <li>No need to have to download files. I wanted something that allows for handouts and materials to be viewable directly on my site without the need to download files. But with that said, I also want there to be the option to download the files.</li>
+  <li>Ability to make it personalized. I wanted something that I could style and design to be my very own. I don’t pretend to be a skilled web designer, but it is nice to be able to customize the look and feel of your site to make it feel a little extra special.</li>
+  <li>Finally, I wanted the only barriers to what the possibilities are with my site to be my own skills and knowledge. As I discover new requirements I want to be able to implement them without having to worry about how it will fit into some other application. For example, as I was building my site I realized that I wanted a good way to give credit to anyone who created and shared out their resources. I believe in sharing and reusing excellent resources but I also did not want it to seem like I was trying to take credit for something that I did not create. I was able to make a little tab on my site that gives the creator’s name and links to their website or social media accounts.</li>
+</ul>
+
+<h5 id="continuing-my-coding-learning-journey">Continuing My Coding Learning Journey</h5>
+<p>I’ve learned so much about coding in the past several years but I obviously have so much to still learn. This project gives me another concrete opportunity to further develop my knowledge and skill set. The ‘things I’ve had to learn’ list for this project is growing steadily and I expect it to continue to grow as I discover new features that I want to incorporate.<br /><br /></p>
+
+<p>The things I’ve had to learn so far include:</p>
+
+<ul>
+  <li>I’ve gained further experience working with <a href="www.jekyllrb.com">Jekyll</a>, which is a static website framework. I used it to build my personal site (along with a little help from a basic template). I also used a very simple free template for my course site.</li>
+  <li>Diving into AWS S3 and hosting a subdomain. I had previously been hosting my personal site on Github Pages. It is a great service and totally free! But I now wanted to be able to use my personal domain to host separate projects (my personal site and now my course site). I felt that this might be a limitation of Github pages and moving things over to AWS might make sense. I’m sure that there are workarounds that would have allowed me to continue to use Github pages but I have been looking for an excuse to dive into AWS.</li>
+  <li>Striving to write maintainable and scalable code. My list of weaknesses as a developer is quite long but one of my main struggles is writing code that keeps my projects maintainable and scalable. I’m going to need to continually add and update this course website, so I really need a system that is relatively streamlined and simple. My project is not there yet, but I feel like it is at least starting off in a reasonable place.</li>
+</ul>
+
+
+  </div>
+</div>
+<div class='two spacing'></div>
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//awheelerblog.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+    </div>
+    <div class="large-3 columns" id="sidebar">
+      
+<div class='links'>
+  <h3>Categories</h3>
+  
+      <a href="/category/photography.html" style="text-decoration: none;">Photography</a><br />
+  
+      <a href="/category/coding.html" style="text-decoration: none;">Coding</a><br />
+  
+      <a href="/category/education.html" style="text-decoration: none;">Education</a><br />
+  
+      <a href="/category/art.html" style="text-decoration: none;">Art</a><br />
+  
+  <p />
+</div>
+<div class='links'>
+  <h3>Tags</h3>
+  <ul>
+  
+      <a href="/tag/fuji.html">fuji</a>
+      <br />
+  
+      <a href="/tag/mathematics.html">mathematics</a>
+      <br />
+  
+      <a href="/tag/coding.html">coding</a>
+      <br />
+  
+      <a href="/tag/teaching.html">teaching</a>
+      <br />
+  
+      <a href="/tag/python.html">python</a>
+      <br />
+  
+      <a href="/tag/workshops.html">workshops</a>
+      <br />
+  
+      <a href="/tag/learning coding.html">learning coding</a>
+      <br />
+  
+      <a href="/tag/google.html">google</a>
+      <br />
+  
+      <a href="/tag/education.html">education</a>
+      <br />
+  
+      <a href="/tag/games.html">games</a>
+      <br />
+  
+      <a href="/tag/art.html">art</a>
+      <br />
+  
+  </ul>
+</div>
+<div class='links'>
+  <h3>Recent Posts</h3>
+  <ul>
+    
+      
+      <li><a href="/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html">A math teacher joins an art challenge - iszaf challenge phase 2</a></li>
+    
+      
+      <li><a href="/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html">Creating tessellations with geogebra</a></li>
+    
+      
+      <li><a href="/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html">A math teacher joins an art challenge - iszaf challenge phase 1</a></li>
+    
+      
+      <li><a href="/coding/education/2017/02/12/my-why-learn-coding-game.html">My "why learn coding?" game</a></li>
+    
+      
+      <li><a href="/coding/education/2017/01/10/creating-my-class-website.html">Creating my class website - why and how?</a></li>
+    
+      
+      <li><a href="/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html">Organizing my teaching with google sheets and trello</a></li>
+    
+      
+        
+  </ul>
+</div>
+
+<div class='four spacing'></div>
+
+    </div>
+  </div>
+</div>
+
+		</div>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69350516-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		<div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-3 medium-3 columns'>
+      <h1>
+        <a href='index.html'>
+          <img alt="" src="http://localhost:4000/images/logo-bw.png" />
+        </a>
+      </h1>
+      <p>2015 Drew Wheeler</p>
+      <div class='spacing'></div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Some pages</h4>
+        <ul>
+          <li><a href="http://awheeler.me/index.html">Home</a></li>
+          <li><a href="http://awheeler.me/projects.html">My Projects</a></li>
+          <li><a href="http://awheeler.me/blog/">My Blog</a></li>
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Recent posts</h4>
+        <ul>
+          
+            <li><a href="/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html">A math teacher joins an art challenge - ISZAF Challenge Phase 2</a></li>
+          
+            <li><a href="/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html">Creating Tessellations with GeoGebra</a></li>
+          
+            <li><a href="/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html">A math teacher joins an art challenge - ISZAF Challenge Phase 1</a></li>
+          
+            <li><a href="/coding/education/2017/02/12/my-why-learn-coding-game.html">My "Why Learn Coding?" Game</a></li>
+          
+            <li><a href="/coding/education/2017/01/10/creating-my-class-website.html">Creating My Class Website - Why and How?</a></li>
+          
+            <li><a href="/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html">Organizing my Teaching with Google Sheets and Trello</a></li>
+          
+            <li><a href="/education/coding/2016/11/02/python-across-the-subjects-workshop.html">Python Across the Subjects Workshop</a></li>
+          
+            <li><a href="/coding/education/2016/09/22/teaching-binary.html">Teaching Binary</a></li>
+          
+            <li><a href="/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html">My love affair with the fuji x100t</a></li>
+          
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <h4>Contact Me</h4>
+      <ul>
+        <li></li>
+        <li>Email: wheeler02@gmail.com</li>
+        <li>Current Location: China</li>
+        <li>Home Base: Canada</li>
+      </ul>
+      <div class='spacing'></div>
+      <ul class='socials'>
+        <li>
+          <a href='https://instagram.com/and_wheeler/' target="_blank">
+            <i class='fa fa-instagram'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://twitter.com/drew_wheels' target="_blank">
+            <i class='fa fa-twitter'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://github.com/awheels'>
+            <i class='fa fa-github-square'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://ca.linkedin.com/in/andwheeler' target="_blank">
+            <i class='fa fa-linkedin'></i>
+          </a>
+        </li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/javascripts/app.js" type="text/javascript"></script>
+
+	</body>
+
+</html>

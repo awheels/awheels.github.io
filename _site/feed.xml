@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drew Wheeler</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Jun 2018 17:43:17 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Jun 2018 17:43:17 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>A math teacher joins an art challenge - ISZAF Challenge Phase 2</title>
+        <description>&lt;p&gt;My experimentation with Processing continues with the Phase 2 of the International Shenzhen Artist Forum’s (ISZAF) art challenge. If anyone is curious to learn more about ISZAF and this challenge you can check out their website &lt;a href=&quot;http://iszaf.com/challenge.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this phase I needed to fuel my inspiration for my next three pieces from another participants Phase 1 submission. My inspiration came from a set of three paper/book ripping pieces. They created circular patterning with a natural element of randomness, which I felt aligned nicely with my current experimentations and skillset with Processing. Also, you can find my code for both Phase 1 and 2 &lt;a href=&quot;https://github.com/awheels/ISZAF-Art-Challenge&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-1---concentric-circles&quot;&gt;Piece #1 - Concentric Circles&lt;/h4&gt;
+
+&lt;p&gt;My first piece came from the simplicity of concentric circles. I then added a gradient effect and colour change, which is triggered by the mouse pointer’s horizontal location. I’d like to take this a little further in the future and see if I can add a little randomness to the drawing of my circles, either through their location or by adding a little wave/randomness to their lines.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas4&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/art_concentric_circles.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-2---recursive-rose&quot;&gt;Piece #2 - Recursive Rose&lt;/h4&gt;
+
+&lt;p&gt;My next idea grew out of some experimentaion with rotating squares and recursion. The discovering of the similarity to a rose was a pleasant discovery. If I have some time, I think I am going to try to add a slider to allow for the changing of the amount of rotation and square sizes by the viewer.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas5&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/art_recursion_rose.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-3---triangles&quot;&gt;Piece #3 - Triangles&lt;/h4&gt;
+
+&lt;p&gt;My final piece was another example of a pleasant surprise. I had experimented with patterning in the past using triangles, but what I had created had a limited amount of randomness. I wanted to increase the randomness and see where that took me. The initial piece that you see below draws a specific number of triangles, with the constraint that they must fall within a specific square area. This constraining square is resized several times to lead to different sized triangles. This led to the work below.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas6&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/art_triangles.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I then wanted to make the pattern redraw on a clean slate when the mouse is clicked, to allow for the generation of different patterns. However, I accidentally forgot to set the background blank before redrawing. This led to the same patterning script being called over and over and drawing the pattern overtop of the previous one. I liked the results of this accident and in the end decided to submit the resulting image. The image below shows an example of an image initially created compared to what was generated and a bunch of mouse clicks. Feel free to experiment with the sketch above by simply clicking the mouse. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Art_Challenge_P2_Triangles_x2.png&quot; alt=&quot;art_challenge&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;one-more-phase&quot;&gt;One more phase!&lt;/h4&gt;
+&lt;p&gt;Learning a bunch and having a blast…and there is still one more phase!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 10 Nov 2017 19:12:42 +0800</pubDate>
+        <link>http://localhost:4000/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html</guid>
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating Tessellations with GeoGebra</title>
+        <description>&lt;p&gt;I feel that GeoGebra is an excellent tool for enhancing student learning in the mathematics classroom. However, one of the struggles I have found with using GeoGebra effectively in my upper level math courses (Grade 9 and up) is that students simply do not know the basics of the software and they get frustrated quite quickly. For this reason I have been trying to provide my students with simple activities that require the use of the basic features of GeoGebra so that they can comfortably build up their skillset.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;My 6th graders have been learning about properties of polygons and this led into tessellations. I felt this was a great opportunity to make use of GeoGebra and have students create their own patterns using the software. It provided students with an excellent opportunity to familiarize themselves with the basics of GeoGebra, while reinforcing their understanding of tessellating with polygons. They used the regular polygon tool to create their initial polygons and basic repeating unit. They then had two copy and paste their repeating unit to generate their larger pattern. This required them to get comfortable with selecting objects and moving around the screen. They also needed to be able to toggle labels on and off and set colours. I also required them to include the angle measures around one single point to help show why the polygons used are able to tessellate a surface with no gaps or overlaps. These are all relatively basic skills, but they are still skills that slow down anyone new to the program. As we progress through the year, I will be trying to incorporate more activities my 6th graders to further build-up their GeoGebra skills. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few examples of the patterns created are below.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/TilingPattern_1.png&quot; alt=&quot;geogebra_pattern&quot; /&gt;
+&lt;img src=&quot;/images/TilingPattern_2.png&quot; alt=&quot;geogebra_pattern&quot; /&gt;
+&lt;img src=&quot;/images/TilingPattern_3.png&quot; alt=&quot;geogebra_pattern&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 28 Oct 2017 15:19:25 +0800</pubDate>
+        <link>http://localhost:4000/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html</guid>
+        
+        <category>coding</category>
+        
+        <category>teaching</category>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
+    
+      <item>
+        <title>A math teacher joins an art challenge - ISZAF Challenge Phase 1</title>
+        <description>&lt;p&gt;I’ve been keen to experiment more with Processing, so when I heard about an art challenge being organized by the International Shenzhen Artist Forum (ISZAF) I was eager to participate. I do not identify as an expert coder nor an artist, but they are both areas that I am looking to grow in and further explore.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In Phase 1 of this challenge we were provided with an initial image that served as inspiration for our creation of 3 pieces of work. The initial image was of cracked/broken egg shells. Below you will find the 3 pieces that I created using Processing (more specifically &lt;a href=&quot;https://p5js.org&quot; target=&quot;_blank&quot;&gt;P5.js&lt;/a&gt;), which is piece of software and programming language that is great for both learning to code and creating visual art. You can read more and check it out &lt;a href=&quot;https://processing.org&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. You can also look at my code &lt;a href=&quot;https://github.com/awheels/ISZAF-Art-Challenge&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; (just be kind…I’m mostly self taught and still learning).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-1---backyard-chickens&quot;&gt;Piece #1 - Backyard Chickens&lt;/h4&gt;
+
+&lt;p&gt;Back at home my parents have backyard chickens, which provides us with a neverending supply of breakfast eggs. So when I saw the image of egg shells it was our families clutch of chickens that first popped into my head. I’ve also seen other generative art that generate unique characters (faces, monsters, robots, etc) and I’d always been intrigued by this. My goal here was to create a program that would create a “clutch” of random chicks and when you click the screen a new “clutch” will be generated. The final result is not quite as “random” as I would like. All the chicks are different sizes, colours and their other features are slightly different - but they are still too similar (at least compared to my initial goal). The constraints of keeping the similar body type, feet and beak/eyes limited the amount of freedom there was with generating the chicks. With more time, I’d like to find ways to maintain the key features needed to identify them as chicks but have more diversity and randomness within their creation.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas2&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/chicken_sketch_p5js.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-2---generating-cracks&quot;&gt;Piece #2 - Generating Cracks&lt;/h4&gt;
+
+&lt;p&gt;My next idea was to play with the idea of cracks. This also aligned with book that I’ve been reading called &lt;a href=&quot;http://zenbullets.com/book.php&quot; target=&quot;_blank&quot;&gt;“Generative Art: A Practice Guide”&lt;/a&gt; by Matt Pearson. The book finds an excellent balance between giving concrete examples with code and discussing the artistic side of the creative process. It is amazing to take a precise machine like a computer and code and push it in a creative direction with certain level of unpredictability and randomness. The program esssentially draws a series of cracks across the screen with different colours schemes (the colour schemes can be changed with a button click). The cracks are simply a collection of straight lines but together with a certain level of randomness to create the crack/jagged effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/art_challenge_line2.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;piece-3---orbitting-albumen&quot;&gt;Piece #3 - Orbitting Albumen&lt;/h4&gt;
+
+&lt;p&gt;My last piece again comes from a combination of the idea of cracked egg shells and Matt Pearson’s generative art book. He also examines the idea of spheres and how to add unpredictability to shapes that we generally view as being precisely defined. Some basic code from his book was used as a starting point and this was further adapted and updated to fit my needs. This piece definitely had a steeper learning curve on the coding side of things. It forced me to dive deeper into my knowledge of Javascript, so a lot was learned. The piece below has been resized down a little from the original, as it was not as smooth and clean here on my blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;myCanvas3&quot; class=&quot;processingCanvas&quot;&gt;
+
+&lt;/div&gt;
+&lt;script src=&quot;/javascripts/p5Sketches/art_challenge_sphere_6x2.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;two-more-phases-still-to-come&quot;&gt;Two More Phases Still to Come!&lt;/h4&gt;
+&lt;p&gt;There are still two more phases to the art challenge. After submitting our phase 1 works, we will select other contributions to inspire 3 more works of our own in phase 2. This will repeat again in phase 3. Once the whole challenge is complete I hope to be share all my creations on my site and I’ll include a link to my code. Looking forward to more learning and experimenting!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Oct 2017 18:24:54 +0800</pubDate>
+        <link>http://localhost:4000/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</guid>
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+        
+        <category>coding</category>
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>My &quot;Why Learn Coding?&quot; Game</title>
+        <description>&lt;p&gt;I’m going to be applying for the upcoming Google Innovators Program. My proposed project obviously deals with coding education, so I thought that it made sense to actually code something for my application. To help me show others the positives of learning to code, I decided to code a simple game that identifies some of the reasons I think kids should at least be exposed to basic coding. My game is appropriately called “Why learn coding?”. Although, it does not keep score or time so I guess it is more of an activity than a game.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Big thanks to Emanuele Feronato for his excellent book that walked me through the process of creating my first game using the &lt;a href=&quot;https://phaser.io/&quot; target=&quot;_blank&quot;&gt;Phaser framework&lt;/a&gt;. You can check out his book &lt;a href=&quot;http://www.emanueleferonato.com/2015/06/08/get-my-first-indie-minibook-from-null-to-full-html5-cross-platform-game/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. All art work was created myself using &lt;a href=&quot;https://www.fiftythree.com/&quot; target=&quot;_blank&quot;&gt;Paper 53&lt;/a&gt;, a great drawing/doodling/note-taking/anything you can dream of app.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;object type=&quot;text/html&quot; data=&quot;/google_game/index.html&quot; width=&quot;100%&quot; height=&quot;600px&quot;&gt;&lt;/object&gt;
+</description>
+        <pubDate>Sun, 12 Feb 2017 16:14:54 +0800</pubDate>
+        <link>http://localhost:4000/coding/education/2017/02/12/my-why-learn-coding-game.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/education/2017/02/12/my-why-learn-coding-game.html</guid>
+        
+        <category>coding</category>
+        
+        <category>games</category>
+        
+        <category>education</category>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating My Class Website - Why and How?</title>
+        <description>&lt;h5 id=&quot;update-september-2017---my-school-has-moved-to-microsoft-education-365-so-there-is-no-longer-any-need-for-me-to-update-and-maintain-my-site-the-site-was-shortlived-but-it-was-a-great-learning-experience&quot;&gt;Update September 2017 - My school has moved to Microsoft Education 365 so there is no longer any need for me to update and maintain my site. The site was shortlived, but it was a great learning experience.&lt;/h5&gt;
+
+&lt;p&gt;I’ve spent the last few weekends putting some extra time into building a website for the math courses that I teach. While doing this there have been several moments where I think to myself, “Is what I am doing ridiculous? There are so many tools and applications out there that can probably do what I’m trying to do much better.” I actually asked my partner on multiple occasions if I was crazy, to which she clearly replied “Yes, but not because of this.” So I thought I would take a little time to reflect on my desire and reasons for building my course site and what I hope it ends up accomplishing.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;feels-good-to-make-stuff&quot;&gt;Feels Good to Make Stuff&lt;/h5&gt;
+&lt;p&gt;I originally had this section at the end of my post because I thought that I should save the best reason for last. But then I realized that a good proportion of anyone who reads this post won’t actually read the entire thing (that is ok - I know what it is like!). So what is this amazingly important reason that I had to move to ensure that everyone actually reads? Well, the title already gave it away, it is the fact that it just feels darn good to make things. It really is hard to beat the feeling of dreaming something up and then taking the action of making it into reality. And this was no different, it just felt good to see a problem that I wanted to solve and create my own solution for it (even if my own solution isn’t as perfect as other ‘store bought’ options).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of my students were surprised and a little impressed that I built the site myself. I got quite a few comments similar to “Wow, you actually made this?” and “But how long did it take you?”. This definitely helped to give me a little 5 minute ego boost but it also reinforced for me the idea that students should be given the opportunity to make more stuff. They were impressed with me making this site because they have no experience or context to understand how difficult it was. It really wasn’t all that hard, assuming that you have been given the opportunity to learn and experiment with some coding concepts and skills.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;i-need-that-and-i-really-want-this--have-my-own-specific-requirements&quot;&gt;I Need That and I Really Want This / Have My Own Specific Requirements&lt;/h5&gt;
+&lt;p&gt;I have some specific requirements and ideas for what I want my site to be able to do and I have not yet to found a tool that checks off these boxes. Some of these specifications are listed below:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Easy for students to view the “big picture” for each unit. Being a mathematics teacher there is a fair bit of content that needs to be covered within each of my units. I’m really striving to approach my teaching from concept based approach. I feel that when students view each lesson as a stand alone they will tend to avoid looking at the big picture and connecting all the concepts together. This is why I wanted a site where students can see all the individual subtopics within a unit on one page and click between the individual content quickly and easily.&lt;/li&gt;
+  &lt;li&gt;Transparency for students (and parents). Everyone should have access and know exactly where to find the lesson material for any given topic. If a student loses a handout or misses a class they will know where they can find the information that they need.&lt;/li&gt;
+  &lt;li&gt;No need to have to download files. I wanted something that allows for handouts and materials to be viewable directly on my site without the need to download files. But with that said, I also want there to be the option to download the files.&lt;/li&gt;
+  &lt;li&gt;Ability to make it personalized. I wanted something that I could style and design to be my very own. I don’t pretend to be a skilled web designer, but it is nice to be able to customize the look and feel of your site to make it feel a little extra special.&lt;/li&gt;
+  &lt;li&gt;Finally, I wanted the only barriers to what the possibilities are with my site to be my own skills and knowledge. As I discover new requirements I want to be able to implement them without having to worry about how it will fit into some other application. For example, as I was building my site I realized that I wanted a good way to give credit to anyone who created and shared out their resources. I believe in sharing and reusing excellent resources but I also did not want it to seem like I was trying to take credit for something that I did not create. I was able to make a little tab on my site that gives the creator’s name and links to their website or social media accounts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;continuing-my-coding-learning-journey&quot;&gt;Continuing My Coding Learning Journey&lt;/h5&gt;
+&lt;p&gt;I’ve learned so much about coding in the past several years but I obviously have so much to still learn. This project gives me another concrete opportunity to further develop my knowledge and skill set. The ‘things I’ve had to learn’ list for this project is growing steadily and I expect it to continue to grow as I discover new features that I want to incorporate.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The things I’ve had to learn so far include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’ve gained further experience working with &lt;a href=&quot;www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, which is a static website framework. I used it to build my personal site (along with a little help from a basic template). I also used a very simple free template for my course site.&lt;/li&gt;
+  &lt;li&gt;Diving into AWS S3 and hosting a subdomain. I had previously been hosting my personal site on Github Pages. It is a great service and totally free! But I now wanted to be able to use my personal domain to host separate projects (my personal site and now my course site). I felt that this might be a limitation of Github pages and moving things over to AWS might make sense. I’m sure that there are workarounds that would have allowed me to continue to use Github pages but I have been looking for an excuse to dive into AWS.&lt;/li&gt;
+  &lt;li&gt;Striving to write maintainable and scalable code. My list of weaknesses as a developer is quite long but one of my main struggles is writing code that keeps my projects maintainable and scalable. I’m going to need to continually add and update this course website, so I really need a system that is relatively streamlined and simple. My project is not there yet, but I feel like it is at least starting off in a reasonable place.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Jan 2017 19:23:18 +0800</pubDate>
+        <link>http://localhost:4000/coding/education/2017/01/10/creating-my-class-website.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/education/2017/01/10/creating-my-class-website.html</guid>
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
+    
+      <item>
+        <title>Organizing my Teaching with Google Sheets and Trello</title>
+        <description>&lt;p&gt;Over the past several weeks I have been using a combination of Google Sheets and Trello for planning and organizing my teaching. It has been amazing! This is one of the first times that I have felt like I have a clear picture of where I am at on the giant list of things that I need to get done. So here is a breakdown of my three systems and how I’ve been using them. I’ve included links to the templates, so feel free to make copies for yourself.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;1-google-sheets-weekly-plan-shared-weekly-plan-template&quot;&gt;1. Google Sheets Weekly Plan &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1O2wXbBGYccMuPCwOBnu3LsmHXWXa2I1n2SoXHVMFVFs/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;(Shared Weekly Plan Template)&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;I used to use a paper planner for organizing my weeks/months but this never worked well for me. When things changed and I had to scratch things out or draw giant arrows all over the place I ended up more stressed than before I started planning. This led to me trying Google Calendar. This definitely has it’s benefits but for me it just seemed to do too much and the base usage that I was looking for was lost in the excess functionality. For example, if I wanted to change some things around it often meant a lot of clicking and editing of times and descriptions. This is when I tried Google Sheets (not sure what took me so long!). I’ve created a simple weekly template that allows me to just jot down rough descriptions of what the plan is for each of my lessons. I’m able to jump from week to week very quickly and easily to see how my units will line up in the upcoming weeks. If things change it is a quick and easy fix. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/googlesheet-weekly-plan.jpg&quot; alt=&quot;weeklyplan&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;2-google-sheets-unit-plans-shared-unit-plan-template&quot;&gt;2. Google Sheets Unit Plans &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1fghEuxTr9iWhJAEUHyCgW2xTVhofTvwECZLHJKsy8o4/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;(Shared Unit Plan Template)&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Now that I have a clear vision of what my coming weeks are going to look like it is time to lock down the specifics of my units. In the past I relied far too heavily on directories/folders on my computer. I honestly thought that this worked for me (I know better now!). I wanted the ability to quickly look at the bigger picture within my units, see how my lessons are lining up and be able to identify any gaps or issues. I also wanted something that was going to be reusable and easily shared. My units are far from perfect but to be able to continue to adapt and improve them I wanted something that was well documented and clear. This led to creating the template that you see below. It includes the title of the lesson, how many classes it will take, a description of what it will look like, the specific content/learning outcomes, links to all the resources used, and a section for extension material. All the linked resources are organized in my Google Drive. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/googlesheet-unit-plan-9.jpg&quot; alt=&quot;unitplan&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;3-trello&quot;&gt;3. Trello&lt;/h5&gt;
+
+&lt;p&gt;This is my best discovery! I have used Trello in the past for some mini projects but I never really stuck with using it. I found that the projects that I’d used it for were not quite big enough, so I never gave Trello a chance to really shine. But over the last six months I’ve taken on some bigger projects and I’ve been enjoying Trello for these. Then I thought, “Hey…maybe I can use Trello to help me with keeping track of those million and a half things that I need to get done as a teacher.” I’m only 3 weeks into using it for this purpose, but so far it has been brilliant! I’ve created a list for my Weekly Plans, Must Do Tasks, No Rush Tasks, In Progress, and Completed Tasks.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;weekly-plans-list&quot;&gt;Weekly Plans List&lt;/h6&gt;
+
+&lt;p&gt;Each card in Weekly Plans represents a week and within that card I have checklists for all the lessons that I need to have prepared for each of my courses (using Google Sheet Weekly Planner). Once I have the whole week of lessons planned (using my Google Sheets Unit Planner) I check them all off and move the card to the bottom of the list.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;must-do-and-no-rush-lists&quot;&gt;Must Do and No Rush Lists&lt;/h6&gt;
+
+&lt;p&gt;My Must Do and No Rush Tasks are exactly what they sound like - all those little and big things that get piled onto our plates as teachers. Whenever another item gets added to my list of things to do I just add it here. I’m then able to sit down and knock things off one by one whenever I have some extra time. Previously I had no tool for these types of things, I just tried to remember them (which had mixed results). This was probably the largest cause of stress for me because I always felt like I had so much to do but never had a clear picture of what all those things were. With Trello I can now sit down and see what I still have to do as well as see what I’ve already accomplished. I’m now also able to add cards for those things that I should be doing more of but just forget or avoid because I feel like there are other things that I need to get done first. For example, I’ve added a card for emailing parents with positive remarks regarding their child’s work in my math class. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;in-progress-list&quot;&gt;In Progress List&lt;/h6&gt;
+
+&lt;p&gt;For some of those bigger items that I cannot quite finish all in one sitting. Or also for things that I’ve started the ball rolling on but still need to do further follow ups on before finishing off.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/trello-planning.jpg&quot; alt=&quot;trelloplanning&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for taking the time to read this far! I hope you find some of the information that I have rambled on about useful. I’d love to hear any other tips or tricks that people use to help them with organizing and planning.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Nov 2016 19:41:14 +0800</pubDate>
+        <link>http://localhost:4000/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</link>
+        <guid isPermaLink="true">http://localhost:4000/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</guid>
+        
+        <category>teaching</category>
+        
+        <category>google</category>
+        
+        
+        <category>education</category>
+        
+      </item>
+    
+      <item>
+        <title>Python Across the Subjects Workshop</title>
+        <description>&lt;p&gt;This past weekend I ran an introductory coding workshop that was focused on helping teachers to see opportunities for the integration of coding (specifically Python) across various subject areas. Examples of possible student programming tasks that align with the science, mathematics, languages and art curriculums were discussed. Thanks to everyone who attended and to AISG for hosting a fantastic event.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please feel free to contact me with any questions! I’m eager to collaborate and discuss coding and all the amazing ways that it can be integrated into our K-12 classrooms.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;780&quot; height=&quot;490&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 16:21:25 +0800</pubDate>
+        <link>http://localhost:4000/education/coding/2016/11/02/python-across-the-subjects-workshop.html</link>
+        <guid isPermaLink="true">http://localhost:4000/education/coding/2016/11/02/python-across-the-subjects-workshop.html</guid>
+        
+        <category>python</category>
+        
+        <category>workshops</category>
+        
+        <category>learning coding</category>
+        
+        
+        <category>education</category>
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Teaching Binary</title>
+        <description>&lt;p&gt;It is my feeling that many students are lacking in their fundamental number sense. To improve this it is important to show students the inner workings of the concepts they are learning. Ask a student to count to the number of students in their class and they will likely do so happily and confidently. Now tell them that they did a great job counting using the base 10 (or decimal) system, but how about they try counting using base 2 (or binary) system. They would likely give you a strange and puzzled look, and rightfully so. Why bother teaching them another system, as it’s not like they are going to use binary in their day to day life? Well, I believe that it is incredibly valuable to realize that the number system that we use in our day to day life is just one of many. Too much of math is thought to be some sort of magical system that we just take for granted. Also, understanding other systems will improve and help to add context to the base 10 system, thereby improving their day to day number sense.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;base-10-system-decimal&quot;&gt;Base 10 System (Decimal)&lt;/h5&gt;
+
+&lt;p&gt;Depending on the age of your students you might get some ‘I know this’ stares when you start talking about the decimal system. But again, I think we are so used to this system that we take some things for granted. I like to ask the students questions like “Why do you think we call it the decimal system?” and “Why is it also referred to base 10, specifically why 10?”. If they give you some blank stares I generally follow up with “What is a decade? How about a decathalon?” and this usually leads to a “Hey it is something to do with 10!”. Great, but why 10? Well how many digits do we have in our counting system? Again, this might seem obvious but many students will count from 1-9 and then continue on to 10, 11, 12 and on. This is where I focus on the term ‘digit’. And within a few minutes, we have identified that it is base 10 because there are 10 digits. We then continue on from here, possibly using a table similar to the one shown below, and start to apply the decimal system.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150914_img3.jpg&quot; alt=&quot;baseten&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;base-2-system-binary&quot;&gt;Base 2 System (Binary)&lt;/h5&gt;
+
+&lt;p&gt;This is where the foundation set by the review of the decimal system should pay off. Questions such as, “Why do they call it the binary system?” and “Why base 2?” should give some relatively quick answers. A bicycle has two wheels and we are called bipeds because we have two legs, so good chance that the number 2 has something to do with why it is called binary. So the magic number was 10 for the decimal system and it was because there was 10 digits, therefore it would make sense if the binary system had two digits. Except, we don’t call them digits, that is only for the decimal system. With the binary system we call them bits, so the binary system has 2 bits in the exact same way as the decimal system has 10 digits. Now as you continue to build up and connect the students understanding of the decimal system to the new (but similar) binary system, you should be able to construct a table similar to the one below. With this table, students should be able to relatively easily convert decimal values into binary ones. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150914_img2.png&quot; alt=&quot;basetwo&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;so-computers-use-binary-prove-it&quot;&gt;So computer’s use binary? Prove it!&lt;/h5&gt;
+
+&lt;p&gt;Ok, so the kids know about binary now…big deal. And at this point I would agree because it is with context that things become interesting. Talking about how computers only understand binary, so all your of programs that you write are converted into binary using a compiler is pretty cool. But again, it adds very little context and they are just left with accepting it is a fact that is being told to them. So what does a teacher do when presented with the difficult teaching situation? &lt;a href=&quot;http://www.smh.com.au/entertainment/music/psys-gangnam-style-breaks-the-internet-20141204-11zusj.html&quot; target=&quot;_blank&quot;&gt;Resort to music videos on YouTube!&lt;/a&gt; Everyone knows Gangnam Style and some of your students might also be aware of the fact that it was responsible for breaking YouTube. But now they actually have the knowledge and understanding to grasp exactly how that happened. It is also a great piece of evidence to show that computer use binary, because if YouTube uses it then it must be true.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Sep 2016 18:20:05 +0800</pubDate>
+        <link>http://localhost:4000/coding/education/2016/09/22/teaching-binary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coding/education/2016/09/22/teaching-binary.html</guid>
+        
+        <category>mathematics</category>
+        
+        <category>coding</category>
+        
+        <category>teaching</category>
+        
+        
+        <category>coding</category>
+        
+        <category>education</category>
+        
+      </item>
+    
+      <item>
+        <title>My love affair with the fuji x100t</title>
+        <description>&lt;p&gt;I have loved photography for a long time and the DSLR was my tried and true camera. But the Fuji x100t is starting to pull me away from the world of the DSLR and I credit it with reigniting my passion. In this post I am going to give a little run down of why I love the x100t. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;1-light-and-compact&quot;&gt;1. Light and Compact&lt;/h5&gt;
+
+&lt;p&gt;The pros of the DSLR are vast; unfortunately one of its pros is definitely not being light and compact. Over the course of my photography journey I slowly began to bring my DSLR along with me less and less. If I was photographing a family session or a wedding my DSLR came with me, but otherwise I settled for my iphone. It is sad, I know! But unless I was going out with the specific task of taking photographs, I left my DSLR at home. This is not the case with the x100t. Going for a hike? I bring it. Grabbing some sushi? I bring it. Walking to the grocery store? I bring it. The camera is so light and compact that I happily carry it around basically anywhere I go. What this means is that I can capture those images that grab you during day to day life, which are often the most valuable.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img6.jpg&quot; alt=&quot;dog&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;2-beautiful-jpegs&quot;&gt;2. Beautiful JPEGs&lt;/h5&gt;
+
+&lt;p&gt;I was one of those people that shot RAW images 99% of the time. I was never quite happy with the way that my DSLR rendered JPEGs straight out of the camera. With the x100t I’ve switched to shooting 99% JPEGs, in large part thanks to the beautiful way that Fuji renders their JPEGs. If you provide the x100t with great light it in turn provides you with mind blowingly beautiful JPEGs.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img2.jpg&quot; alt=&quot;portrait&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;3-wifi&quot;&gt;3. Wifi&lt;/h5&gt;
+
+&lt;p&gt;You know those features that you think you’ll never use but they end up being one of your favourites? Well built-in wifi is one of those features for me. Thanks to the x100t’s beautiful JPEGs and light and compact size I am able to move photographs directly from the camera to my iphone or ipad and do some quick and light processing using VSCO on the fly. The old me with my DSLR would take photographs and then come home and eventually get around to importing the RAW files onto my computer, processing them, converting them to JPEGs and then maybe sharing them. With the way that life gets in the way, this entire process would easily take days, if not weeks. On that note, I think I have a collection of RAW images from my trip to Costa Rica from 2 years ago that are still waiting to be dealt with.&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img3.jpg&quot; alt=&quot;beach&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;4-manual-controls&quot;&gt;4. Manual Controls&lt;/h5&gt;
+
+&lt;p&gt;I love photography not only for its creative and artistic side, but also for how its precise and scientific nature. So the fact that the x100t has full manual controls, that are quick and intuitive is obviously another of the reasons that I am in love with it. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img4.jpg&quot; alt=&quot;river&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;5-it-is-a-beautiful-camera&quot;&gt;5. It is a beautiful camera!&lt;/h5&gt;
+
+&lt;p&gt;The above four items combine to create an amazing camera. It is literally changing the way I photograph and I know that it is going to help me evolve into a stronger photographer, both creatively and technically. Of course the looks of a camera play no part in the images that it creates, but having a beautiful looking camera sure is nice. Well, the Fuji x100t is exactly that, a straight up BEAUTIFUL camera. &lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/images/20150912_img7.jpg&quot; alt=&quot;best-friends&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 23mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I’m excited to continue my x100t love affair and see where it takes me!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Sep 2016 15:20:05 +0800</pubDate>
+        <link>http://localhost:4000/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</link>
+        <guid isPermaLink="true">http://localhost:4000/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</guid>
+        
+        <category>fuji</category>
+        
+        
+        <category>photography</category>
+        
+      </item>
+    
+  </channel>
+</rss>

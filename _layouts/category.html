@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+
+<div class="full">
+  <div class="row">
+    <div class="large-9 columns">
+      <h2>Posts related to: {{ page.title }}</h2>
+      {% for post in site.categories[page.category] %}
+        <div class='big mod modBlogPost no_bg'>
+          <div class='content'>
+            <p class='info'>
+              <span>{{post.date | date: "%B %d, %Y" }}</span>
+              /
+              <span>
+                by
+                <a href="">{{post.author}}</a>
+              </span>
+              /
+              <span>
+                In
+                {% for cat in post.categories %}
+                  <a href="#">{{cat}}</a>
+                  {% unless forloop.last %}
+                      ,
+                  {% endunless %}
+                {% endfor %}
+              </span>
+<!--               /
+              <span>
+                <a href="#">4 comments</a>
+              </span> -->
+            </p>
+            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+            <p>{{post.excerpt}}</p>
+            <div class='spacing'></div>
+            <a class="button small" href="{{post.url}}">Read more</a>
+          </div>
+        </div>  
+      {% endfor %}
+    </div>
+    <div class="large-3 columns" id="sidebar">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

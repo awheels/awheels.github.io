@@ -1,0 +1,5 @@
+---
+layout: category
+title: Photography
+category: photography
+---

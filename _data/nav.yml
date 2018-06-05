@@ -1,0 +1,12 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: My Projects
+  path: projects.html
+  section_id: projects
+- name: Blog
+  path: blog/
+  section_id: blog
+- name: Contact
+  path: contact.html
+  section_id: contact

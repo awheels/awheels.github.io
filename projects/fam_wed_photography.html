@@ -1,0 +1,45 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/Family-800x500.png
+  - images/Wedding-800x500.png
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Family and Wedding Photography</h3>
+      <p>
+        My passion for photography led me to start a wedding and family photography business. I am currently stepping away from my business, as I want to focus more on personal photography projects. I am grateful for all the learning opportunities that my experiences with wedding and family photography has provided me, as they will be invaluable as I move to other areas of photography.
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Date:</strong>
+          2011-2015
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='../projects.html' title='back to work list'>
+            Back to Portfolio
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
