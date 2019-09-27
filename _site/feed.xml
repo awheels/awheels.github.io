@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jun 2018 20:59:20 +0800</pubDate>
-    <lastBuildDate>Wed, 06 Jun 2018 20:59:20 +0800</lastBuildDate>
+    <pubDate>Thu, 26 Sep 2019 18:08:24 -0600</pubDate>
+    <lastBuildDate>Thu, 26 Sep 2019 18:08:24 -0600</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -61,7 +61,7 @@
 &lt;p&gt;Learning a bunch and having a blast…and there is still one more phase!&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 10 Nov 2017 19:12:42 +0800</pubDate>
+        <pubDate>Fri, 10 Nov 2017 05:12:42 -0600</pubDate>
         <link>http://localhost:4000/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/art/2017/11/10/when-a-math-teacher-joins-an-art-challenge-phase2.html</guid>
         
@@ -89,7 +89,7 @@
 &lt;img src=&quot;/images/TilingPattern_3.png&quot; alt=&quot;geogebra_pattern&quot; /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 28 Oct 2017 15:19:25 +0800</pubDate>
+        <pubDate>Sat, 28 Oct 2017 01:19:25 -0600</pubDate>
         <link>http://localhost:4000/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/education/2017/10/28/creating-tiling-patterns-with-geogebra.html</guid>
         
@@ -151,7 +151,7 @@
 &lt;p&gt;There are still two more phases to the art challenge. After submitting our phase 1 works, we will select other contributions to inspire 3 more works of our own in phase 2. This will repeat again in phase 3. Once the whole challenge is complete I hope to be share all my creations on my site and I’ll include a link to my code. Looking forward to more learning and experimenting!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 14 Oct 2017 18:24:54 +0800</pubDate>
+        <pubDate>Sat, 14 Oct 2017 04:24:54 -0600</pubDate>
         <link>http://localhost:4000/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/art/2017/10/14/when-a-math-teacher-joins-an-art-challenge.html</guid>
         
@@ -174,7 +174,7 @@
 
 &lt;object type=&quot;text/html&quot; data=&quot;/google_game/index.html&quot; width=&quot;100%&quot; height=&quot;600px&quot;&gt;&lt;/object&gt;
 </description>
-        <pubDate>Sun, 12 Feb 2017 16:14:54 +0800</pubDate>
+        <pubDate>Sun, 12 Feb 2017 02:14:54 -0600</pubDate>
         <link>http://localhost:4000/coding/education/2017/02/12/my-why-learn-coding-game.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/education/2017/02/12/my-why-learn-coding-game.html</guid>
         
@@ -225,7 +225,7 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 10 Jan 2017 19:23:18 +0800</pubDate>
+        <pubDate>Tue, 10 Jan 2017 05:23:18 -0600</pubDate>
         <link>http://localhost:4000/coding/education/2017/01/10/creating-my-class-website.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/education/2017/01/10/creating-my-class-website.html</guid>
         
@@ -270,7 +270,7 @@
 
 &lt;p&gt;Thanks for taking the time to read this far! I hope you find some of the information that I have rambled on about useful. I’d love to hear any other tips or tricks that people use to help them with organizing and planning.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 27 Nov 2016 19:41:14 +0800</pubDate>
+        <pubDate>Sun, 27 Nov 2016 05:41:14 -0600</pubDate>
         <link>http://localhost:4000/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</link>
         <guid isPermaLink="true">http://localhost:4000/education/2016/11/27/organizing-my-teaching-with-google-sheets-and-trello.html</guid>
         
@@ -291,7 +291,7 @@
 
 &lt;iframe src=&quot;https://docs.google.com/presentation/d/1_CvxseVs_LiZ2c_D5PdXja-OxCO7YWvlpBWNNQ3RDwE/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;780&quot; height=&quot;490&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Wed, 02 Nov 2016 16:21:25 +0800</pubDate>
+        <pubDate>Wed, 02 Nov 2016 02:21:25 -0600</pubDate>
         <link>http://localhost:4000/education/coding/2016/11/02/python-across-the-subjects-workshop.html</link>
         <guid isPermaLink="true">http://localhost:4000/education/coding/2016/11/02/python-across-the-subjects-workshop.html</guid>
         
@@ -324,7 +324,7 @@
 
 &lt;p&gt;Ok, so the kids know about binary now…big deal. And at this point I would agree because it is with context that things become interesting. Talking about how computers only understand binary, so all your of programs that you write are converted into binary using a compiler is pretty cool. But again, it adds very little context and they are just left with accepting it is a fact that is being told to them. So what does a teacher do when presented with the difficult teaching situation? &lt;a href=&quot;http://www.smh.com.au/entertainment/music/psys-gangnam-style-breaks-the-internet-20141204-11zusj.html&quot; target=&quot;_blank&quot;&gt;Resort to music videos on YouTube!&lt;/a&gt; Everyone knows Gangnam Style and some of your students might also be aware of the fact that it was responsible for breaking YouTube. But now they actually have the knowledge and understanding to grasp exactly how that happened. It is also a great piece of evidence to show that computer use binary, because if YouTube uses it then it must be true.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 22 Sep 2016 18:20:05 +0800</pubDate>
+        <pubDate>Thu, 22 Sep 2016 04:20:05 -0600</pubDate>
         <link>http://localhost:4000/coding/education/2016/09/22/teaching-binary.html</link>
         <guid isPermaLink="true">http://localhost:4000/coding/education/2016/09/22/teaching-binary.html</guid>
         
@@ -367,7 +367,7 @@
 
 &lt;p&gt;These are just a handful of the reasons that I love the Fuji x100t. I could go on about the electronic viewfinder, its film simulations, and its beautiful 23mm fixed lens. But what I love about the x100t is not so much for all its technically prowess (which is does have), I love it for the way it gets out of the way and just lets me capture great images. I’m excited to continue my x100t love affair and see where it takes me!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Sep 2016 15:20:05 +0800</pubDate>
+        <pubDate>Mon, 12 Sep 2016 01:20:05 -0600</pubDate>
         <link>http://localhost:4000/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</link>
         <guid isPermaLink="true">http://localhost:4000/photography/2016/09/12/my-love-affair-with-the-fuji-x100t.html</guid>
         
